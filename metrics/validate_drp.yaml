@@ -11,19 +11,108 @@ PA1:
     url: http://ls.st/lpm-17
     page: 21
 
-PF1:
+PF1_minimum_gri:
   description: >
-    The maximum fraction of magnitudes deviating by more than PA2 from
-    mean.
+    The maximum fraction of magnitudes deviating by more than PA2_minimum_gri from mean.
   unit: '%'
   reference:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
 
-PA2:
+PF1_design_gri:
   description: >
-    At most PF1 percent of magnitudes may deviate by more than this magnitude from the mean.
+    The maximum fraction of magnitudes deviating by more than PA2_design_gri from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_stretch_gri:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_stretch_gri from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_minimum_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_minimum_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_design_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_design_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_stretch_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_stretch_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_minimum_gri:
+  description: >
+    At most PF1_minimum_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_design_gri:
+  description: >
+    At most PF1_design_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_stretch_gri:
+  description: >
+    At most PF1_stretch_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_minimum_uzy:
+  description: >
+    At most PF1_minimum_uzy % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_design_uzy:
+  description: >
+    At most PF1_design_uzy % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_stretch_uzy:
+  description: >
+    At most PF1_stretch_uzy % of magnitudes may deviate by more than this magnitude from the mean.
   unit: mmag
   reference:
     doc: LPM-17

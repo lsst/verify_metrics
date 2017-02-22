@@ -27,3 +27,33 @@ base: ['PA1.minimum_gri', '#base']
 # validate_drp.PA1.chfit_stretch_gri
 name: 'cfht_stretch_gri'
 base: ['PA1.stretch_gri', '#base']
+
+---
+# validate_drp.PF1_minimum_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PF1_minimum_gri.srd', '#base']
+
+---
+# validate_drp.PF1_design_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PF1_design_gri.srd', '#base']
+
+---
+# validate_drp.PF1_stretch_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PF1_stretch_gri.srd', '#base']
+
+---
+# validate_drp.PA2_minimum_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PA2_minimum_gri.srd', '#base']
+
+---
+# validate_drp.PA2_design_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PA2_design_gri.srd', '#base']
+
+---
+# validate_drp.PA2_stretch_gri.cfht_gri
+name: 'cfht_gri'
+base: ['PA2_stretch_gri.srd', '#base']
