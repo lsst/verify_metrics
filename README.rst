@@ -37,10 +37,13 @@ It's easy to create a Community forum account.
 If you're part of the LSST Project, please create a `JIRA ticket <https://jira.lsstcorp.org/>`_.
 Use the `Validation <https://jira.lsstcorp.org/browse/DM/component/13205>`_ component.
 
-Contributing code
-=================
+Contributions
+=============
 
-Follow `LSST Data Management's workflow <https://developer.lsst.io/processes/workflow.html>`_ for code contributions.
+- This repository should only contain metric and specification YAML files.
+  Don't add Python code; instead consider extending the ``lsst.validate.base`` API in the `validate_base`_ package.
+
+- Follow `LSST Data Management's workflow <https://developer.lsst.io/processes/workflow.html>`_ for contributions.
 
 License
 =======
@@ -51,3 +54,4 @@ See the `COPYRIGHT <./COPYRIGHT>`_ file.
 This product's source code is licensed under the terms of GPLv3 (see `LICENSE <./LICENSE>`_), and all documentation content is licensed under the `Creative Commons Attribution 4.0 International (CC BY 4.0) <https://creativecommons.org/licenses/by/4.0/>`_ license.
 
 .. _SQR-017: https://sqr-017.lsst.io
+.. _validate_base: https://github.com/lsst/validate_base
