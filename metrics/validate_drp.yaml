@@ -1,0 +1,201 @@
+# validate_drp metric definitions
+# Definitions from LPM-17 (the Science Requirements Document).
+# http://ls.st/lpm-17
+
+PA1:
+  description: >
+    The maximum rms of the unresolved source magnitude distribution around the mean value.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_minimum_gri:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_minimum_gri from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_design_gri:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_design_gri from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_stretch_gri:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_stretch_gri from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_minimum_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_minimum_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_design_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_design_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PF1_stretch_uzy:
+  description: >
+    The maximum fraction of magnitudes deviating by more than PA2_stretch_uzy from mean.
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_minimum_gri:
+  description: >
+    At most PF1_minimum_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_design_gri:
+  description: >
+    At most PF1_design_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_stretch_gri:
+  description: >
+    At most PF1_stretch_gri % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_minimum_uzy:
+  description: >
+    At most PF1_minimum_uzy % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_design_uzy:
+  description: >
+    At most PF1_design_uzy % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+PA2_stretch_uzy:
+  description: >
+    At most PF1_stretch_uzy % of magnitudes may deviate by more than this magnitude from the mean.
+  unit: mmag
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 21
+
+AM1:
+  description: >
+    The maximum rms of the astrometric distance distribution for stellar pairs with separations of D=5 arcmin (repeatability).
+  unit: marcsec
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AM2:
+  description: >
+    The maximum rms of the astrometric distance distribution for stellar pairs with separations of D=20 arcmin (repeatability).
+  unit: marcsec
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AM3:
+  description: >
+    The maximum rms of the astrometric distance distribution for stellar pairs with separations of D=200 arcmin (repeatability).
+  unit: marcsec
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF1:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD1 milliarcsec (see AM1).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF2:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD2 milliarcsec (see AM2).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF3:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: '%'
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
+
+AD1:
+  description: >
+    No more than AF1 of the astrometric distances will deviate by more than this from the median (see AM1, AF1).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD2:
+  description: >
+    No more than AF2 of the astrometric distances will deviate by more than this from the median (see AM2, AF2).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD3:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: milliarcsecond
+  description: >
+    No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
