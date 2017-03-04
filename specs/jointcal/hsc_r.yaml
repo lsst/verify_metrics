@@ -1,0 +1,42 @@
+# Specifications for jointcal metrics against testdata_jointcal
+# hsc r-band datasets.
+
+---
+id: 'base'
+provenance_query:
+  # Prototype for query provenance. This needs to be figured out.
+  dataset_repo_url: 'https://github.com/lsst/testdata_jointcal.git'
+
+---
+# jointcal.astrometry_ndof.hsc_11_visits
+name: "hsc_11_visits"
+  base: ["#astrometry_ndof-base", "#base"]
+  provenance_query:
+    # Prototype for query provenance. This needs to be figured out.
+    visits: [903334, 903336, 903338, 903342, 903344, 903346, 903986, 903988, 903990, 904010, 904014]
+    config: 'config.astrometryModel="simplePoly"'
+threshold:
+  value: 14262
+
+---
+# jointcal.astrometry_ndof.hsc_2_visits
+name: "hsc_2_visits"
+  base: ["#astrometry_ndof-base", "#base"]
+  provenance_query:
+    # Prototype for query provenance. This needs to be figured out.
+    dataset_repo_url: 'https://github.com/lsst/testdata_jointcal.git'
+    visits: [903334, 903336]
+    config: 'config.astrometryModel="simplePoly"'
+threshold:
+  value: 1858
+
+---
+# jointcal.astrometry_chisq.hsc_2_visits
+name: "hsc_2_visits"
+  base: ["#astrometry_chisq-base", "#base"]
+  provenance_query:
+    # Prototype for query provenance. This needs to be figured out.
+    dataset_repo_url: 'https://github.com/lsst/testdata_jointcal.git'
+    visits: [903334, 903336]
+    config: 'config.astrometryModel="simplePoly"'
+

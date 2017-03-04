@@ -1,0 +1,88 @@
+# validate_drp metric definitions
+# Definitions from LPM-17 (the Science Requirements Document).
+# http://ls.st/lpm-17
+
+associated_astrometry_fittedStars:
+  description: >
+    The number of cross-matched fittedStars for astrometry.
+  unit: ''
+  tags: astrometry
+
+collected_astrometry_refStars:
+  description: >
+    The number of astrometry reference stars drawn from the reference catalog, before matching.
+  unit: ''
+  tags: astrometry
+
+selected_astrometry_refStars:
+  description: >
+    The number of astrometry reference stars matched to fittedStars.
+  unit: ''
+  tags: astrometry
+
+selected_astrometry_fittedStars:
+  description: >
+    The number of cross-matched fittedStars after cleanup, for astrometry.
+  unit: ''
+  tags: astrometry
+
+selected_astrometry_ccdImages:
+  description: >
+    The number of ccdImages that will be fit for astrometry, after cleanup.
+  unit: >
+  tags: astrometry
+
+astrometry_chisq:
+  description: >
+    The final chi2 of the astrometry fit.
+  unit: ''
+  tags: astrometry
+
+astrometry_ndof:
+  description: >
+    The number of degrees of freedom of the fitted astrometry.
+  unit: ''
+  tags: astrometry
+
+
+associated_photometry_fittedStars:
+  description: >
+    The number of cross-matched fittedStars for photometry.
+  unit: ''
+  tags: photometry
+
+collected_photometry_refStars:
+  description: >
+    The number of photometry reference stars drawn from the reference catalog, before matching.
+  unit: ''
+  tags: photometry
+
+selected_photometry_refStars:
+  description: >
+    The number of photometry reference stars matched to fittedStars.
+  unit: ''
+  tags: photometry
+
+selected_photometry_fittedStars:
+  description: >
+    The number of cross-matched fittedStars after cleanup, for photometry.
+  unit: ''
+  tags: photometry
+
+selected_photometry_ccdImages:
+  description: >
+    The number of ccdImages that will be fit for photometry, after cleanup.
+  unit: >
+  tags: photometry
+
+photometry_chisq:
+  description: >
+    The final chi2 of the photometry fit.
+  unit: ''
+  tags: photometry
+
+photometry_ndof:
+  description: >
+    The number of degrees of freedom of the fitted photometry.
+  unit: ''
+  tags: photometry
