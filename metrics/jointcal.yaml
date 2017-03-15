@@ -1,6 +1,4 @@
-# validate_drp metric definitions
-# Definitions from LPM-17 (the Science Requirements Document).
-# http://ls.st/lpm-17
+# jointcal metric definitions
 
 associated_astrometry_fittedStars:
   description: >
