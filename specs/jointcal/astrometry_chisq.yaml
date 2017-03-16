@@ -1,0 +1,29 @@
+# Astrometry Chi-squared specifications.
+
+# These specifications don't query against provenance; sub-specifications
+# *can* inherit these, though, to concretely test against a certain dataset.
+
+---
+# Specification partial
+id: 'astrometry_chisq-base'
+metric: 'astrometry_chisq'
+threshold:
+  operator: "<="
+
+---
+name: "maximum"
+base: "#astrometry_chisq-base"
+threshold:
+  value: 5.0
+
+---
+name: "safe"
+base: "#astrometry_chisq-base"
+threshold:
+  value: 1.5
+
+---
+name: "low"
+base: "#astrometry_chisq-base"
+threshold:
+  value: 0.5
