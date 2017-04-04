@@ -9,6 +9,7 @@ id: 'astrometry_chisq-base'
 metric: 'astrometry_chisq'
 threshold:
   operator: "<="
+  unit: ''
 
 ---
 name: "maximum"

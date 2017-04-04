@@ -6,3 +6,4 @@ id: 'astrometry_ndof-base'
 metric: 'astrometry_ndof'
 threshold:
   operator: "=="
+  unit: ''
