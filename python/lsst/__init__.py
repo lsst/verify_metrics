@@ -1,8 +1,8 @@
 # See COPYRIGHT file at the top of the source tree.
 
 try:
-    # validate_metrics does not formally use on lsstimport, but we still
-    # attempt to import it for compatiblity with the lsst.validate Stack.
+    # verify_metrics does not formally use lsstimport, but we still
+    # attempt to import it for compatiblity with the lsst Stack.
     import lsstimport  # noqa: F401
 except ImportError:
     pass

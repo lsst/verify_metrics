@@ -1,9 +1,9 @@
-.. currentmodule:: lsst.validate.metrics
+.. currentmodule:: lsst.verify.metrics
 
-.. _validate_metrics:
+.. _verify_metrics:
 
-############################################################
-lsst.validate.metrics — Metric and specification definitions
-############################################################
+##########################################################
+lsst.verify.metrics — Metric and specification definitions
+##########################################################
 
 TK.
