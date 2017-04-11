@@ -1,10 +1,10 @@
-#####################
-lsst.validate.metrics
-#####################
+###################
+lsst.verify.metrics
+###################
 
-**Centralized metric and specification definitions for the lsst.validate framework.**
+**Centralized metric and specification definitions for the LSST Science Pipeline Verification Framework.**
 
-For background on the ``lsst.validate`` framework, see SQR-017_.
+For background on the ``lsst.verify`` framework, see SQR-017_.
 
 Registering metrics
 ===================
@@ -12,7 +12,7 @@ Registering metrics
 **Metrics** are *measureable things*.
 They can be astronomy concepts (an astrometric RMS), or computational (a task's timing or memory usage).
 
-Metrics that are measured by packages are **registered** here in ``validate_metrics`` by adding or extending a metric definition YAML file in the ``metrics/`` directory.
+Metrics that are measured by packages are **registered** here in ``verify_metrics`` by adding or extending a metric definition YAML file in the ``metrics/`` directory.
 See `metrics/README.rst <./metrics/README.rst>`_ for more information.
 
 Registering specifications
@@ -23,7 +23,7 @@ A specification might say that a metric measurement should be less than a certai
 Whenever metrics are measured, DM's SQUASH harness tests those measurements against specifications.
 Depending on the pass/fail outcome, subscribers can receive notifications (alerts).
 
-New specifications are **registered** here in ``validate_metrics`` by adding or extending a specification definition YAML file in the ``specs/`` directory.
+New specifications are **registered** here in ``verify_metrics`` by adding or extending a specification definition YAML file in the ``specs/`` directory.
 See `specs/README.rst <./specs/README.rst>`_ for more information.
 
 Getting help and reporting bugs
@@ -41,7 +41,7 @@ Contributions
 =============
 
 - This repository should only contain metric and specification YAML files.
-  Don't add Python code; instead consider extending the ``lsst.validate.base`` API in the `validate_base`_ package.
+  Don't add Python code; instead consider extending the ``lsst.verify`` API in the `verify`_ package.
 
 - Follow `LSST Data Management's workflow <https://developer.lsst.io/processes/workflow.html>`_ for contributions.
 
@@ -54,4 +54,4 @@ See the `COPYRIGHT <./COPYRIGHT>`_ file.
 This product's source code is licensed under the terms of GPLv3 (see `LICENSE <./LICENSE>`_), and all documentation content is licensed under the `Creative Commons Attribution 4.0 International (CC BY 4.0) <https://creativecommons.org/licenses/by/4.0/>`_ license.
 
 .. _SQR-017: https://sqr-017.lsst.io
-.. _validate_base: https://github.com/lsst/validate_base
+.. _verify: https://github.com/lsst-dm/verify
