@@ -6,6 +6,12 @@ lsst.verify.metrics
 
 For background on the ``lsst.verify`` framework, see SQR-017_.
 
+Installation
+============
+
+This ``verify_metrics`` package is a dependency of the `verify`_ package, and available through the ``lsst_distrib`` top-level package.
+See https://pipelines.lsst.io for details on installing ``lsst_distrib``.
+
 Registering metrics
 ===================
 
