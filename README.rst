@@ -4,7 +4,13 @@ lsst.verify.metrics
 
 **Centralized metric and specification definitions for the LSST Science Pipeline Verification Framework.**
 
-For background on the ``lsst.verify`` framework, see SQR-017_.
+For background on the ``lsst.verify`` framework, see the SQR-017_ (design) and SQR-019_ (demo) technotes.
+
+Installation
+============
+
+This ``verify_metrics`` package is a dependency of the `verify`_ package, and available through the ``lsst_distrib`` top-level package.
+See https://pipelines.lsst.io for details on installing ``lsst_distrib``.
 
 Registering metrics
 ===================
@@ -35,7 +41,7 @@ It's easy to create a Community forum account.
 *We don't use GitHub Issues.*
 
 If you're part of the LSST Project, please create a `JIRA ticket <https://jira.lsstcorp.org/>`_.
-Use the `Validation <https://jira.lsstcorp.org/browse/DM/component/13205>`_ component.
+Use the `Verification component`_ component and `verify_metrics label`_.
 
 Contributions
 =============
@@ -54,4 +60,7 @@ See the `COPYRIGHT <./COPYRIGHT>`_ file.
 This product's source code is licensed under the terms of GPLv3 (see `LICENSE <./LICENSE>`_), and all documentation content is licensed under the `Creative Commons Attribution 4.0 International (CC BY 4.0) <https://creativecommons.org/licenses/by/4.0/>`_ license.
 
 .. _SQR-017: https://sqr-017.lsst.io
-.. _verify: https://github.com/lsst-dm/verify
+.. _SQR-019: https://sqr-019.lsst.io
+.. _verify: https://github.com/lsst/verify
+.. _Verification Component: https://jira.lsstcorp.org/browse/DM/component/14170
+.. _`verify_metrics label`: https://jira.lsstcorp.org/issues/?jql=labels%20%3D%20verify_metrics
