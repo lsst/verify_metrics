@@ -1,9 +1,10 @@
-.. currentmodule:: lsst.verify.metrics
+####################################
+verify_metrics documentation preview
+####################################
 
-.. _verify_metrics:
+Documentation content:
 
-##########################################################
-lsst.verify.metrics — Metric and specification definitions
-##########################################################
+.. toctree::
+   :maxdepth: 1
 
-TK.
+   verify_metrics/index
