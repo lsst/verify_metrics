@@ -1,0 +1,13 @@
+# Metric definitions in meas_astrom
+
+AstrometryTime: &RunningTime
+    description: Total time elapsed in AstrometryTask.
+    unit: s
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+
