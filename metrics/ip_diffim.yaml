@@ -1,0 +1,17 @@
+# Metric definitions in ip_diffim
+
+ImagePsfMatchTime: &RunningTime
+    description: Total time elapsed in ImagePsfMatchTask.
+    unit: s
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+
+DipoleFitTime:
+    <<: *RunningTime
+    description: Total time elapsed in DipoleFitTask.
+

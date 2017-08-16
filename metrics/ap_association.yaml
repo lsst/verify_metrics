@@ -1,0 +1,13 @@
+# Metric definitions in ap_association
+
+AssociationTime: &RunningTime
+    description: Total time elapsed in AssociationTask.
+    unit: s
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+

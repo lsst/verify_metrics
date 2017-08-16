@@ -1,0 +1,29 @@
+# Metric definitions in pipe_tasks
+
+ProcessCcdTime: &RunningTime
+    description: Total time elapsed in ProcessCcdTask.
+    unit: s
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+
+CharacterizeImageTime:
+    <<: *RunningTime
+    description: Total time elapsed in CharacterizeImageTask.
+
+CalibrateTime:
+    <<: *RunningTime
+    description: Total time elapsed in CalibrateTask.
+
+ImageDifferenceTime:
+    <<: *RunningTime
+    description: Total time elapsed in ImageDifferenceTask.
+
+RegisterImageTime:
+    <<: *RunningTime
+    description: Total time elapsed in registerImage.RegisterTask.
+
