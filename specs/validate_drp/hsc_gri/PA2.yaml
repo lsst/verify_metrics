@@ -1,0 +1,44 @@
+---
+# validate_drp.PA2_minimum_gri.hsc_g
+name: 'hsc_g'
+base: ['PA2_minimum_gri.srd', 'hsc_gri/base#base-g']
+
+---
+# validate_drp.PA2_minimum_gri.hsc_r
+name: 'hsc_r'
+base: ['PA2_minimum_gri.srd', 'hsc_gri/base#base-r']
+
+---
+# validate_drp.PA2_minimum_gri.hsc_i
+name: 'hsc_i'
+base: ['PA2_minimum_gri.srd', 'hsc_gri/base#base-i']
+
+---
+# validate_drp.PA2_design_gri.hsc_g
+name: 'hsc_g'
+base: ['PA2_design_gri.srd', 'hsc_gri/base#base-g']
+
+---
+# validate_drp.PA2_design_gri.hsc_r
+name: 'hsc_r'
+base: ['PA2_design_gri.srd', 'hsc_gri/base#base-r']
+
+---
+# validate_drp.PA2_design_gri.hsc_i
+name: 'hsc_i'
+base: ['PA2_design_gri.srd', 'hsc_gri/base#base-i']
+
+---
+# validate_drp.PA2_stretch_gri.hsc_g
+name: 'hsc_g'
+base: ['PA2_stretch_gri.srd', 'hsc_gri/base#base-g']
+
+---
+# validate_drp.PA2_stretch_gri.hsc_r
+name: 'hsc_r'
+base: ['PA2_stretch_gri.srd', 'hsc_gri/base#base-r']
+
+---
+# validate_drp.PA2_stretch_gri.hsc_i
+name: 'hsc_i'
+base: ['PA2_stretch_gri.srd', 'hsc_gri/base#base-i']
