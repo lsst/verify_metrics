@@ -1,0 +1,29 @@
+---
+# validate_drp.PA2_design_uzy.hsc_u
+name: 'hsc_design_u'
+base: ['PA2_design_uzy.srd', 'hsc_uzy/base#base-u']
+
+---
+# validate_drp.PA2_design_uzy.hsc_y
+name: 'hsc_design_y'
+base: ['PA2_design_uzy.srd', 'hsc_uzy/base#base-y']
+
+---
+# validate_drp.PA2_minimum_uzy.hsc_u
+name: 'hsc_minimum_u'
+base: ['PA2_minimum_uzy.srd', 'hsc_uzy/base#base-u']
+
+---
+# validate_drp.PA2_minimum_uzy.hsc_y
+name: 'hsc_minimum_y'
+base: ['PA2_minimum_uzy.srd', 'hsc_uzy/base#base-y']
+
+---
+# validate_drp.PA2_stretch_uzy.hsc_u
+name: 'hsc_stretch_u'
+base: ['PA2_stretch_uzy.srd', 'hsc_uzy/base#base-u']
+
+---
+# validate_drp.PA2_stretch_uzy.hsc_y
+name: 'hsc_stretch_y'
+base: ['PA2_stretch_uzy.srd', 'hsc_uzy/base#base-y']
