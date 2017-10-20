@@ -4,6 +4,7 @@
 # Select the HSC test dataset
 id: 'base'
 metadata_query:
+  instrument: 'HSC'
   dataset_repo_url: 'https://github.com/lsst/validation_data_hsc.git'
   # May need to add specific visits and ccds for the test dataset
 

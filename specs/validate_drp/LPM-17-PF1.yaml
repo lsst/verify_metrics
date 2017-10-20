@@ -6,6 +6,8 @@
 ---
 # Specification partial
 id: 'PF1-base'
+tags:
+  - 'PF1'
 threshold:
   unit: ''
   operator: '<='
