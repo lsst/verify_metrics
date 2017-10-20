@@ -1,0 +1,83 @@
+# AM1, AM2, AM3 need to find definitions
+
+---
+# Specification partial
+id: 'AM1-base'
+metric: 'AM1'
+tags:
+  - 'AM1'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+id: 'AM2-base'
+metric: 'AM2'
+tags:
+  - 'AM2'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+id: 'AM3-base'
+metric: 'AM3'
+tags:
+  - 'AM3'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+name: "design"
+base: "#AM1-base"
+threshold:
+  value: 10.0
+
+---
+name: "minimum"
+base: "#AM1-base"
+threshold:
+  value: 20.0
+
+---
+name: "stretch"
+base: "#AM1-base"
+threshold:
+  value: 5.0
+
+---
+name: "design"
+base: "#AM2-base"
+threshold:
+  value: 10.0
+
+---
+name: "minimum"
+base: "#AM2-base"
+threshold:
+  value: 20.0
+
+---
+name: "stretch"
+base: "#AM2-base"
+threshold:
+  value: 5.0
+---
+
+name: "design"
+base: "#AM3-base"
+threshold:
+  value: 15.0
+
+---
+name: "minimum"
+base: "#AM3-base"
+threshold:
+  value: 30.0
+
+---
+name: "stretch"
+base: "#AM3-base"
+threshold:
+  value: 10.0

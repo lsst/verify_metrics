@@ -1,0 +1,83 @@
+# AF1, AF2, AF3 need to find definitions
+
+---
+# Specification partial
+id: 'AF1-base'
+metric: 'AF1'
+tags:
+  - 'AF1'
+threshold:
+  unit: 'percent'
+  operator: "<="
+
+---
+id: 'AF2-base'
+metric: 'AF2'
+tags:
+  - 'AF2'
+threshold:
+  unit: 'percent'
+  operator: "<="
+
+---
+id: 'AF3-base'
+metric: 'AF3'
+tags:
+  - 'AF3'
+threshold:
+  unit: 'percent'
+  operator: "<="
+
+---
+name: "design"
+base: "#AF1-base"
+threshold:
+  value: 10.0
+
+---
+name: "minimum"
+base: "#AF1-base"
+threshold:
+  value: 20.0
+
+---
+name: "stretch"
+base: "#AF1-base"
+threshold:
+  value: 5.0
+
+---
+name: "design"
+base: "#AF2-base"
+threshold:
+  value: 10.0
+
+---
+name: "minimum"
+base: "#AF2-base"
+threshold:
+  value: 20.0
+
+---
+name: "stretch"
+base: "#AF2-base"
+threshold:
+  value: 5.0
+---
+
+name: "design"
+base: "#AF3-base"
+threshold:
+  value: 10.0
+
+---
+name: "minimum"
+base: "#AF3-base"
+threshold:
+  value: 20.0
+
+---
+name: "stretch"
+base: "#AF3-base"
+threshold:
+  value: 5.0

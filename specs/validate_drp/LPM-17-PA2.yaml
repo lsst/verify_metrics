@@ -6,6 +6,8 @@
 ---
 # Specification partial
 id: 'PA2-base'
+tags:
+  - "PA2"
 threshold:
   unit: 'mmag'
   operator: '<='

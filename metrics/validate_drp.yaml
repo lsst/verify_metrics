@@ -199,3 +199,23 @@ AD3:
   unit: milliarcsecond
   description: >
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
+
+TE1:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 31
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations
+    must have median absolute value less than this for separations < 1 arcmin.
+
+TE2:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 31
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations
+    must have median absolute value less than this for separations > 5 arcmin.
