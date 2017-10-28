@@ -3,7 +3,6 @@
 ---
 # Specification partial
 id: 'AD1-base'
-metric: 'AD1'
 tags:
   - 'AD1'
 threshold:
@@ -12,7 +11,6 @@ threshold:
 
 ---
 id: 'AD2-base'
-metric: 'AD2'
 tags:
   - 'AD2'
 threshold:
@@ -21,7 +19,6 @@ threshold:
 
 ---
 id: 'AD3-base'
-metric: 'AD3'
 tags:
   - 'AD3'
 threshold:
@@ -29,55 +26,64 @@ threshold:
   operator: "<="
 
 ---
-name: "design"
+metric: "AD1_design"
+name: "srd"
 base: "#AD1-base"
 threshold:
   value: 20.0
 
 ---
-name: "minimum"
+metric: "AD1_minimum"
+name: "srd"
 base: "#AD1-base"
 threshold:
   value: 40.0
 
 ---
-name: "stretch"
+metric: "AD1_stretch"
+name: "srd"
 base: "#AD1-base"
 threshold:
   value: 10.0
 
 ---
-name: "design"
+metric: "AD2_design"
+name: "srd"
 base: "#AD2-base"
 threshold:
   value: 20.0
 
 ---
-name: "minimum"
+metric: "AD2_minimum"
+name: "srd"
 base: "#AD2-base"
 threshold:
   value: 40.0
 
 ---
-name: "stretch"
+metric: "AD2_stretch"
+name: "srd"
 base: "#AD2-base"
 threshold:
   value: 10.0
----
 
-name: "design"
+---
+metric: "AD3_design"
+name: "srd"
 base: "#AD3-base"
 threshold:
   value: 30.0
 
 ---
-name: "minimum"
+metric: "AD3_minimum"
+name: "srd"
 base: "#AD3-base"
 threshold:
   value: 50.0
 
 ---
-name: "stretch"
+metric: "AD3_stretch"
+name: "srd"
 base: "#AD3-base"
 threshold:
   value: 20.0
