@@ -1,0 +1,56 @@
+# TE1 and TE2 from validate_drp
+
+---
+# Specification partial
+id: 'TE1-base'
+metric: 'TE1'
+tags:
+  - 'TE1'
+threshold:
+  unit: ''
+  operator: "<="
+
+---
+id: 'TE2-base'
+metric: 'TE2'
+tags:
+  - 'TE2'
+threshold:
+  unit: ''
+  operator: "<="
+
+---
+name: "design"
+base: "#TE1-base"
+threshold:
+  value: 0.00002
+
+---
+name: "minimum"
+base: "#TE1-base"
+threshold:
+  value: 0.00003
+
+---
+name: "stretch"
+base: "#TE1-base"
+threshold:
+  value: 0.00001
+
+---
+name: "design"
+base: "#TE2-base"
+threshold:
+  value: 0.00005
+
+---
+name: "minimum"
+base: "#TE2-base"
+threshold:
+  value: 0.00003
+
+---
+name: "stretch"
+base: "#TE2-base"
+threshold:
+  value: 0.00001

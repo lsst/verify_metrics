@@ -3,7 +3,6 @@
 ---
 # Specification partial
 id: 'AF1-base'
-metric: 'AF1'
 tags:
   - 'AF1'
 threshold:
@@ -12,7 +11,6 @@ threshold:
 
 ---
 id: 'AF2-base'
-metric: 'AF2'
 tags:
   - 'AF2'
 threshold:
@@ -21,7 +19,6 @@ threshold:
 
 ---
 id: 'AF3-base'
-metric: 'AF3'
 tags:
   - 'AF3'
 threshold:
@@ -29,55 +26,64 @@ threshold:
   operator: "<="
 
 ---
-name: "design"
+metric: "AF1_design"
+name: "srd"
 base: "#AF1-base"
 threshold:
   value: 10.0
 
 ---
-name: "minimum"
+metric: "AF1_minimum"
+name: "srd"
 base: "#AF1-base"
 threshold:
   value: 20.0
 
 ---
-name: "stretch"
+metric: "AF1_stretch"
+name: "srd"
 base: "#AF1-base"
 threshold:
   value: 5.0
 
 ---
-name: "design"
+metric: "AF2_design"
+name: "srd"
 base: "#AF2-base"
 threshold:
   value: 10.0
 
 ---
-name: "minimum"
+metric: "AF2_minimum"
+name: "srd"
 base: "#AF2-base"
 threshold:
   value: 20.0
 
 ---
-name: "stretch"
+metric: "AF2_stretch"
+name: "srd"
 base: "#AF2-base"
 threshold:
   value: 5.0
----
 
-name: "design"
+---
+metric: "AF3_design"
+name: "srd"
 base: "#AF3-base"
 threshold:
   value: 10.0
 
 ---
-name: "minimum"
+metric: "AF3_minimum"
+name: "srd"
 base: "#AF3-base"
 threshold:
   value: 20.0
 
 ---
-name: "stretch"
+metric: "AF3_stretch"
+name: "srd"
 base: "#AF3-base"
 threshold:
   value: 5.0
