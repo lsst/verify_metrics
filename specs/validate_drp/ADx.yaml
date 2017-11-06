@@ -1,0 +1,89 @@
+# AD1, AD2, AD3 need to find definitions
+
+---
+# Specification partial
+id: 'AD1-base'
+tags:
+  - 'AD1'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+id: 'AD2-base'
+tags:
+  - 'AD2'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+id: 'AD3-base'
+tags:
+  - 'AD3'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+metric: "AD1_design"
+name: "srd"
+base: "#AD1-base"
+threshold:
+  value: 20.0
+
+---
+metric: "AD1_minimum"
+name: "srd"
+base: "#AD1-base"
+threshold:
+  value: 40.0
+
+---
+metric: "AD1_stretch"
+name: "srd"
+base: "#AD1-base"
+threshold:
+  value: 10.0
+
+---
+metric: "AD2_design"
+name: "srd"
+base: "#AD2-base"
+threshold:
+  value: 20.0
+
+---
+metric: "AD2_minimum"
+name: "srd"
+base: "#AD2-base"
+threshold:
+  value: 40.0
+
+---
+metric: "AD2_stretch"
+name: "srd"
+base: "#AD2-base"
+threshold:
+  value: 10.0
+
+---
+metric: "AD3_design"
+name: "srd"
+base: "#AD3-base"
+threshold:
+  value: 30.0
+
+---
+metric: "AD3_minimum"
+name: "srd"
+base: "#AD3-base"
+threshold:
+  value: 50.0
+
+---
+metric: "AD3_stretch"
+name: "srd"
+base: "#AD3-base"
+threshold:
+  value: 20.0

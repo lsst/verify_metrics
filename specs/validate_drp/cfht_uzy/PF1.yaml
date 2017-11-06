@@ -1,0 +1,44 @@
+---
+# validate_drp.PF1_minimum_uzy.cfht_u
+name: 'cfht_u'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#base-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z
+name: 'cfht_z'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#base-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y
+name: 'cfht_y'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#base-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u
+name: 'cfht_u'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#base-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z
+name: 'cfht_z'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#base-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y
+name: 'cfht_y'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#base-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u
+name: 'cfht_u'
+base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#base-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_z
+name: 'cfht_z'
+base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#base-z']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y
+name: 'cfht_y'
+base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#base-y']

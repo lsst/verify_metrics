@@ -1,0 +1,28 @@
+# Specifications for validate_drp metrics against validation_data_hsc
+# uzy-band datasets. 
+
+---
+# Select the HSC test dataset
+id: 'base'
+metadata_query:
+  instrument: 'HSC'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_hsc.git'
+  # may need to add some visits
+
+---
+id: 'base-u'
+base: '#base'
+metadata_query:
+  filter_name: 'HSC-U'
+
+---
+id: 'base-z'
+base: '#base'
+metadata_query:
+  filter_name: 'HSC-Z'
+
+---
+id: 'base-y'
+base: '#base'
+metadata_query:
+  filter_name: 'HSC-Y'

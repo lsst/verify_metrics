@@ -146,7 +146,7 @@ AM3:
     url: http://ls.st/lpm-17
     page: 23
 
-AF1:
+AF1_minimum:
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD1 milliarcsec (see AM1).
   unit: '%'
@@ -155,7 +155,25 @@ AF1:
     url: http://ls.st/lpm-17
     page: 23
 
-AF2:
+AF1_design:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD1 milliarcsec (see AM1).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF1_stretch:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD1 milliarcsec (see AM1).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF2_minimum:
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD2 milliarcsec (see AM2).
   unit: '%'
@@ -164,7 +182,25 @@ AF2:
     url: http://ls.st/lpm-17
     page: 23
 
-AF3:
+AF2_design:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD2 milliarcsec (see AM2).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF2_stretch:
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD2 milliarcsec (see AM2).
+  unit: '%'
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AF3_minimum:
   reference:
     doc: LPM-17
     url: http://ls.st/lpm-17
@@ -173,7 +209,25 @@ AF3:
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
 
-AD1:
+AF3_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: '%'
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
+
+AF3_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: '%'
+  description: >
+    The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
+
+AD1_minimum:
   description: >
     No more than AF1 of the astrometric distances will deviate by more than this from the median (see AM1, AF1).
   unit: milliarcsecond
@@ -182,7 +236,25 @@ AD1:
     url: http://ls.st/lpm-17
     page: 23
 
-AD2:
+AD1_design:
+  description: >
+    No more than AF1 of the astrometric distances will deviate by more than this from the median (see AM1, AF1).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD1_stretch:
+  description: >
+    No more than AF1 of the astrometric distances will deviate by more than this from the median (see AM1, AF1).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD2_minimum:
   description: >
     No more than AF2 of the astrometric distances will deviate by more than this from the median (see AM2, AF2).
   unit: milliarcsecond
@@ -191,7 +263,25 @@ AD2:
     url: http://ls.st/lpm-17
     page: 23
 
-AD3:
+AD2_design:
+  description: >
+    No more than AF2 of the astrometric distances will deviate by more than this from the median (see AM2, AF2).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD2_stretch:
+  description: >
+    No more than AF2 of the astrometric distances will deviate by more than this from the median (see AM2, AF2).
+  unit: milliarcsecond
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+
+AD3_minimum:
   reference:
     doc: LPM-17
     url: http://ls.st/lpm-17
@@ -199,3 +289,41 @@ AD3:
   unit: milliarcsecond
   description: >
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
+
+AD3_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: milliarcsecond
+  description: >
+    No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
+
+AD3_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 23
+  unit: milliarcsecond
+  description: >
+    No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
+
+TE1:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 31
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations
+    must have median absolute value less than this for separations < 1 arcmin.
+
+TE2:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 31
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations
+    must have median absolute value less than this for separations > 5 arcmin.
