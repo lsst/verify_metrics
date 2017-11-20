@@ -30,13 +30,13 @@ selected_astrometry_ccdImages:
   unit: >
   tags: astrometry
 
-astrometry_chisq:
+astrometry_final_chi2:
   description: >
     The final chi2 of the astrometry fit.
   unit: ''
   tags: astrometry
 
-astrometry_ndof:
+astrometry_final_ndof:
   description: >
     The number of degrees of freedom of the fitted astrometry.
   unit: ''
@@ -73,13 +73,13 @@ selected_photometry_ccdImages:
   unit: >
   tags: photometry
 
-photometry_chisq:
+photometry_final_chi2:
   description: >
     The final chi2 of the photometry fit.
   unit: ''
   tags: photometry
 
-photometry_ndof:
+photometry_final_ndof:
   description: >
     The number of degrees of freedom of the fitted photometry.
   unit: ''
