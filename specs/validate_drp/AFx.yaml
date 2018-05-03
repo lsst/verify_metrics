@@ -5,6 +5,7 @@
 id: 'AF1-base'
 tags:
   - 'AF1'
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: "<="
@@ -13,6 +14,7 @@ threshold:
 id: 'AF2-base'
 tags:
   - 'AF2'
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: "<="
@@ -21,6 +23,7 @@ threshold:
 id: 'AF3-base'
 tags:
   - 'AF3'
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: "<="

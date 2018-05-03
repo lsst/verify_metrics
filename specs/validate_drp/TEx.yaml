@@ -6,6 +6,7 @@ id: 'TE1-base'
 metric: 'TE1'
 tags:
   - 'TE1'
+  - 'achromatic'
 threshold:
   unit: ''
   operator: "<="
@@ -15,6 +16,7 @@ id: 'TE2-base'
 metric: 'TE2'
 tags:
   - 'TE2'
+  - 'achromatic'
 threshold:
   unit: ''
   operator: "<="

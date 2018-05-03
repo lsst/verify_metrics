@@ -10,6 +10,8 @@
 ---
 id: 'PA1-base'
 metric: 'PA1'
+tags:
+  - 'chromatic'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -77,6 +79,8 @@ threshold:
 ---
 id: 'PF1-base'
 metric: 'PF1'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -114,6 +118,8 @@ threshold:
 ---
 id: 'PA2-base'
 metric: 'PA2'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -151,6 +157,8 @@ threshold:
 ---
 id: 'AM1-base'
 metric: 'AM1'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -188,6 +196,8 @@ threshold:
 ---
 id: 'AM2-base'
 metric: 'AM2'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -225,6 +235,8 @@ threshold:
 ---
 id: 'AM3-base'
 metric: 'AM3'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -262,6 +274,8 @@ threshold:
 ---
 id: 'AF1-base'
 metric: 'AF1'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -299,6 +313,8 @@ threshold:
 ---
 id: 'AF2-base'
 metric: 'AF2'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -336,6 +352,8 @@ threshold:
 ---
 id: 'AF3-base'
 metric: 'AF3'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -373,6 +391,8 @@ threshold:
 ---
 id: 'AD1-base'
 metric: 'AD1'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -410,6 +430,8 @@ threshold:
 ---
 id: 'AD2-base'
 metric: 'AD2'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -447,6 +469,8 @@ threshold:
 ---
 id: 'AD3-base'
 metric: 'AD3'
+tags:
+  - 'achromatic'
 threshold:
   unit: 'marcsec'
   operator: '<='

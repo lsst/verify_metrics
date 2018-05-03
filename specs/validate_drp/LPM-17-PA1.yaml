@@ -7,6 +7,9 @@
 # Specification partial
 id: 'PA1-base'
 metric: 'PA1'
+tags:
+  - 'PA1'
+  - 'chromatic'
 threshold:
   unit: 'mmag'
   operator: "<="

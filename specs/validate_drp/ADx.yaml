@@ -5,6 +5,7 @@
 id: 'AD1-base'
 tags:
   - 'AD1'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="
@@ -13,6 +14,7 @@ threshold:
 id: 'AD2-base'
 tags:
   - 'AD2'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="
@@ -21,6 +23,7 @@ threshold:
 id: 'AD3-base'
 tags:
   - 'AD3'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="

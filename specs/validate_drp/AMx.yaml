@@ -6,6 +6,7 @@ id: 'AM1-base'
 metric: 'AM1'
 tags:
   - 'AM1'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="
@@ -15,6 +16,7 @@ id: 'AM2-base'
 metric: 'AM2'
 tags:
   - 'AM2'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="
@@ -24,6 +26,7 @@ id: 'AM3-base'
 metric: 'AM3'
 tags:
   - 'AM3'
+  - 'achromatic'
 threshold:
   unit: 'milliarcsecond'
   operator: "<="
