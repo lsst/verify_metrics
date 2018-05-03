@@ -3,382 +3,327 @@ name: 'decam_FY17'
 base: 'PF1.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'PF1.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'PF1.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'PF1.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'PF1.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'PA2.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'PA2.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'PA2.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'PA2.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'PA2.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AM1.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AM1.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AM1.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AM1.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AM1.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AM2.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AM2.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AM2.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AM2.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AM2.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AM3.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AM3.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AM3.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AM3.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AM3.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AF1.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AF1.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AF1.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AF1.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AF1.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AF2.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AF2.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AF2.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AF2.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AF2.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AF3.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AF3.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AF3.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AF3.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AF3.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AD1.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AD1.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AD1.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AD1.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AD1.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AD2.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AD2.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AD2.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AD2.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AD2.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY17'
 base: 'AD3.FY17'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY18'
 base: 'AD3.FY18'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY19'
 base: 'AD3.FY19'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_FY20'
 base: 'AD3.FY20'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
 
 ---
 name: 'decam_ORR'
 base: 'AD3.ORR'
 metadata_query:
   instrument: 'DECAM'
-  filter_name: 'any'
