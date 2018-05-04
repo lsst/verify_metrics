@@ -7,7 +7,8 @@
 # Specification partial
 id: 'PA2-base'
 tags:
-  - "PA2"
+  - 'PA2'
+  - 'chromatic'
 threshold:
   unit: 'mmag'
   operator: '<='
