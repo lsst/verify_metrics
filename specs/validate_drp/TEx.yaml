@@ -26,33 +26,45 @@ name: "design"
 base: "#TE1-base"
 threshold:
   value: 0.00002
+tags:
+  - design
 
 ---
 name: "minimum"
 base: "#TE1-base"
 threshold:
   value: 0.00003
+tags:
+  - minimum
 
 ---
 name: "stretch"
 base: "#TE1-base"
 threshold:
   value: 0.00001
+tags:
+  - stretch
 
 ---
 name: "design"
 base: "#TE2-base"
 threshold:
   value: 0.00005
+tags:
+  - design
 
 ---
 name: "minimum"
 base: "#TE2-base"
 threshold:
   value: 0.00003
+tags:
+  - minimum
 
 ---
 name: "stretch"
 base: "#TE2-base"
 threshold:
   value: 0.00001
+tags:
+  - stretch

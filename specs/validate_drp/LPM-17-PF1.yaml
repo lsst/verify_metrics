@@ -20,6 +20,8 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 20.0
+tags:
+  - minimum
 
 ---
 # validate_drp.PF1_design_gri.srd
@@ -28,6 +30,8 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 10.0
+tags:
+  - design
 
 ---
 # validate_drp.PF1_stretch_gri.srd
@@ -36,6 +40,8 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 5.0
+tags:
+  - stretch
 
 ---
 # validate_drp.PF1_minimum_uzy.srd
@@ -44,6 +50,8 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 20.0
+tags:
+  - minimum
 
 ---
 # validate_drp.PF1_design_uzy.srd
@@ -52,6 +60,8 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 10.0
+tags:
+  - design
 
 ---
 # validate_drp.PF1_stretch_uzy.srd
@@ -60,3 +70,5 @@ name: 'srd'
 base: '#PF1-base'
 threshold:
   value: 5.0
+tags:
+  - stretch
