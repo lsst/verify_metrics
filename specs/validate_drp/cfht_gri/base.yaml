@@ -6,27 +6,28 @@
 
 ---
 # Select the CFHT test dataset
-id: 'base'
+id: 'cfht'
 metadata_query:
   instrument: 'CFHT'
   dataset_repo_url: 'https://github.com/lsst/validation_data_cfht.git'
+  dataset_name: 'validation_data_cfht'
   visits: [849375, 850587]
   ccds: [12, 13, 14, 21, 22, 23]
 
 ---
-id: 'base-g'
-base: '#base'
+id: 'cfht-g'
+base: '#cfht'
 metadata_query:
   filter_name: 'g'
 
 ---
-id: 'base-r'
-base: '#base'
+id: 'cfht-r'
+base: '#cfht'
 metadata_query:
   filter_name: 'r'
 
 ---
-id: 'base-i'
-base: '#base'
+id: 'cfht-i'
+base: '#cfht'
 metadata_query:
   filter_name: 'i'

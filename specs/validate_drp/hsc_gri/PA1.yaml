@@ -1,44 +1,44 @@
 ---
 # validate_drp.PA1.hsc_design_g
 name: 'hsc_design_g'
-base: ['PA1.design_gri', 'hsc_gri/base#base-g']
+base: ['PA1.design_gri', 'hsc_gri/base#hsc-g']
 
 ---
 # validate_drp.PA1.hsc_design_r
 name: 'hsc_design_r'
-base: ['PA1.design_gri', 'hsc_gri/base#base-r']
+base: ['PA1.design_gri', 'hsc_gri/base#hsc-r']
 
 ---
 # validate_drp.PA1.hsc_design_i
 name: 'hsc_design_i'
-base: ['PA1.design_gri', 'hsc_gri/base#base-i']
+base: ['PA1.design_gri', 'hsc_gri/base#hsc-i']
 
 ---
 # validate_drp.PA1.hsc_minimum_g
 name: 'hsc_minimum_g'
-base: ['PA1.minimum_gri', 'hsc_gri/base#base-g']
+base: ['PA1.minimum_gri', 'hsc_gri/base#hsc-g']
 
 ---
 # validate_drp.PA1.hsc_minimum_r
 name: 'hsc_minimum_r'
-base: ['PA1.minimum_gri', 'hsc_gri/base#base-r']
+base: ['PA1.minimum_gri', 'hsc_gri/base#hsc-r']
 
 ---
 # validate_drp.PA1.hsc_minimum_i
 name: 'hsc_minimum_i'
-base: ['PA1.minimum_gri', 'hsc_gri/base#base-i']
+base: ['PA1.minimum_gri', 'hsc_gri/base#hsc-i']
 
 ---
 # validate_drp.PA1.hsc_stretch_g
 name: 'hsc_stretch_g'
-base: ['PA1.stretch_gri', 'hsc_gri/base#base-g']
+base: ['PA1.stretch_gri', 'hsc_gri/base#hsc-g']
 
 ---
 # validate_drp.PA1.hsc_stretch_r
 name: 'hsc_stretch_r'
-base: ['PA1.stretch_gri', 'hsc_gri/base#base-r']
+base: ['PA1.stretch_gri', 'hsc_gri/base#hsc-r']
 
 ---
 # validate_drp.PA1.hsc_stretch_i
 name: 'hsc_stretch_i'
-base: ['PA1.stretch_gri', 'hsc_gri/base#base-i']
+base: ['PA1.stretch_gri', 'hsc_gri/base#hsc-i']

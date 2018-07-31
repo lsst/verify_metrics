@@ -4,26 +4,28 @@
 # in the g, r, or i bands.
 
 ---
-# Select the CFHT test dataset
-id: 'base'
+# Select the DECam test dataset
+id: 'decam'
 metadata_query:
   instrument: 'DECAM'
   dataset_repo_url: 'https://github.com/lsst/validation_data_decam.git'
+  dataset_name: 'validation_data_decam'
+  # May need to add specific visits and ccds for the test dataset
 
 ---
-id: 'base-g'
-base: '#base'
+id: 'decam-g'
+base: '#decam'
 metadata_query:
   filter_name: 'g'
 
 ---
-id: 'base-r'
-base: '#base'
+id: 'decam-r'
+base: '#decam'
 metadata_query:
   filter_name: 'r'
 
 ---
-id: 'base-i'
-base: '#base'
+id: 'decam-i'
+base: '#decam'
 metadata_query:
   filter_name: 'i'

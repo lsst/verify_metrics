@@ -1,44 +1,44 @@
 ---
 # validate_drp.PA2_minimum_gri.decam_g
 name: 'decam_g'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#base-g']
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-g']
 
 ---
 # validate_drp.PA2_minimum_gri.decam_r
 name: 'decam_r'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#base-r']
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-r']
 
 ---
 # validate_drp.PA2_minimum_gri.decam_i
 name: 'decam_i'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#base-i']
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-i']
 
 ---
 # validate_drp.PA2_design_gri.decam_g
 name: 'decam_g'
-base: ['PA2_design_gri.srd', 'decam_gri/base#base-g']
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-g']
 
 ---
 # validate_drp.PA2_design_gri.decam_r
 name: 'decam_r'
-base: ['PA2_design_gri.srd', 'decam_gri/base#base-r']
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-r']
 
 ---
 # validate_drp.PA2_design_gri.decam_i
 name: 'decam_i'
-base: ['PA2_design_gri.srd', 'decam_gri/base#base-i']
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-i']
 
 ---
 # validate_drp.PA2_stretch_gri.decam_g
 name: 'decam_g'
-base: ['PA2_stretch_gri.srd', 'decam_gri/base#base-g']
+base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-g']
 
 ---
 # validate_drp.PA2_stretch_gri.decam_r
 name: 'decam_r'
-base: ['PA2_stretch_gri.srd', 'decam_gri/base#base-r']
+base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-r']
 
 ---
 # validate_drp.PA2_stretch_gri.decam_i
 name: 'decam_i'
-base: ['PA2_stretch_gri.srd', 'decam_gri/base#base-i']
+base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-i']
