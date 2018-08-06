@@ -1,197 +1,140 @@
 ---
-name: 'decam'
-base: 'AD1_design.srd'
+# Select the DECam test dataset
+id: 'decam'
 metadata_query:
   instrument: 'DECAM'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_decam.git'
+  dataset_name: 'validation_data_decam'
+  # May need to add specific visits and ccds for the test dataset
 
 ---
 name: 'decam'
-base: 'AD1_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD1_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD1_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD1_minimum.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD2_design.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD1_stretch.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD2_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD2_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD2_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD2_minimum.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD3_design.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD2_stretch.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD3_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD3_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AD3_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD3_minimum.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF1_design.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AD3_stretch.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF1_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF1_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF1_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF1_minimum.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF2_design.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF1_stretch.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF2_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF2_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF2_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF2_minimum.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF3_design.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF2_stretch.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF3_minimum.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF3_design.srd', '#decam']
 
 ---
 name: 'decam'
-base: 'AF3_stretch.srd'
-metadata_query:
-  instrument: 'DECAM'
+base: ['AF3_minimum.srd', '#decam']
 
 ---
-name: 'decam_design'
-base: 'AM1.design'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AF3_stretch.srd', '#decam']
 
 ---
-name: 'decam_minimum'
-base: 'AM1.minimum'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM1.design', '#decam']
 
 ---
-name: 'decam_stretch'
-base: 'AM1.stretch'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM1.minimum', '#decam']
 
 ---
-name: 'decam_design'
-base: 'AM2.design'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM1.stretch', '#decam']
 
 ---
-name: 'decam_minimum'
-base: 'AM2.minimum'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM2.design', '#decam']
 
 ---
-name: 'decam_stretch'
-base: 'AM2.stretch'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM2.minimum', '#decam']
 
 ---
-name: 'decam_design'
-base: 'AM3.design'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM2.stretch', '#decam']
 
 ---
-name: 'decam_minimum'
-base: 'AM3.minimum'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM3.design', '#decam']
 
 ---
-name: 'decam_stretch'
-base: 'AM3.stretch'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM3.minimum', '#decam']
 
 ---
-name: 'decam_design'
-base: 'TE1.design'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['AM3.stretch', '#decam']
 
 ---
-name: 'decam_minimum'
-base: 'TE1.minimum'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['TE1.design', '#decam']
 
 ---
-name: 'decam_stretch'
-base: 'TE1.stretch'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['TE1.minimum', '#decam']
 
 ---
-name: 'decam_design'
-base: 'TE2.design'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['TE1.stretch', '#decam']
 
 ---
-name: 'decam_minimum'
-base: 'TE2.minimum'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['TE2.design', '#decam']
 
 ---
-name: 'decam_stretch'
-base: 'TE2.stretch'
-metadata_query:
-  instrument: 'DECAM'
+name: 'decam'
+base: ['TE2.minimum', '#decam']
+
+---
+name: 'decam'
+base: ['TE2.stretch', '#decam']

@@ -1,44 +1,44 @@
 ---
 # validate_drp.PA1.cfht_design_u
 name: 'cfht_design_u'
-base: ['PA1.design_uzy', 'cfht_uzy/base#base-u']
+base: ['PA1.design_uzy', 'cfht_uzy/base#cfht-u']
 
 ---
 # validate_drp.PA1.cfht_design_z
 name: 'cfht_design_z'
-base: ['PA1.design_uzy', 'cfht_uzy/base#base-z']
+base: ['PA1.design_uzy', 'cfht_uzy/base#cfht-z']
 
 ---
 # validate_drp.PA1.cfht_design_y
 name: 'cfht_design_y'
-base: ['PA1.design_uzy', 'cfht_uzy/base#base-y']
+base: ['PA1.design_uzy', 'cfht_uzy/base#cfht-y']
 
 ---
 # validate_drp.PA1.cfht_minimum_u
 name: 'cfht_minimum_u'
-base: ['PA1.minimum_uzy', 'cfht_uzy/base#base-u']
+base: ['PA1.minimum_uzy', 'cfht_uzy/base#cfht-u']
 
 ---
 # validate_drp.PA1.cfht_minimum_z
 name: 'cfht_minimum_z'
-base: ['PA1.minimum_uzy', 'cfht_uzy/base#base-z']
+base: ['PA1.minimum_uzy', 'cfht_uzy/base#cfht-z']
 
 ---
 # validate_drp.PA1.cfht_minimum_y
 name: 'cfht_minimum_y'
-base: ['PA1.minimum_uzy', 'cfht_uzy/base#base-y']
+base: ['PA1.minimum_uzy', 'cfht_uzy/base#cfht-y']
 
 ---
 # validate_drp.PA1.cfht_stretch_u
 name: 'cfht_stretch_u'
-base: ['PA1.stretch_uzy', 'cfht_uzy/base#base-u']
+base: ['PA1.stretch_uzy', 'cfht_uzy/base#cfht-u']
 
 ---
 # validate_drp.PA1.cfht_stretch_z
 name: 'cfht_stretch_z'
-base: ['PA1.stretch_uzy', 'cfht_uzy/base#base-z']
+base: ['PA1.stretch_uzy', 'cfht_uzy/base#cfht-z']
 
 ---
 # validate_drp.PA1.cfht_stretch_y
 name: 'cfht_stretch_y'
-base: ['PA1.stretch_uzy', 'cfht_uzy/base#base-y']
+base: ['PA1.stretch_uzy', 'cfht_uzy/base#cfht-y']

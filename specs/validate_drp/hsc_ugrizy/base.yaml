@@ -1,197 +1,140 @@
 ---
-name: 'hsc'
-base: 'AD1_design.srd'
+# Select the HSC test dataset
+id: 'hsc'
 metadata_query:
   instrument: 'HSC'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_hsc.git'
+  dataset_name: 'validation_data_hsc'
+  # May need to add specific visits and ccds for the test dataset
 
 ---
 name: 'hsc'
-base: 'AD1_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD1_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD1_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD1_minimum.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD2_design.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD1_stretch.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD2_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD2_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD2_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD2_minimum.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD3_design.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD2_stretch.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD3_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD3_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AD3_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD3_minimum.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF1_design.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AD3_stretch.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF1_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF1_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF1_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF1_minimum.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF2_design.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF1_stretch.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF2_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF2_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF2_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF2_minimum.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF3_design.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF2_stretch.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF3_minimum.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF3_design.srd', '#hsc']
 
 ---
 name: 'hsc'
-base: 'AF3_stretch.srd'
-metadata_query:
-  instrument: 'HSC'
+base: ['AF3_minimum.srd', '#hsc']
+
+---
+name: 'hsc'
+base: ['AF3_stretch.srd', '#hsc']
 
 ---
 name: 'hsc_design'
-base: 'AM1.design'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM1.design', '#hsc']
 
 ---
 name: 'hsc_minimum'
-base: 'AM1.minimum'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM1.minimum', '#hsc']
 
 ---
 name: 'hsc_stretch'
-base: 'AM1.stretch'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM1.stretch', '#hsc']
 
 ---
 name: 'hsc_design'
-base: 'AM2.design'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM2.design', '#hsc']
 
 ---
 name: 'hsc_minimum'
-base: 'AM2.minimum'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM2.minimum', '#hsc']
 
 ---
 name: 'hsc_stretch'
-base: 'AM2.stretch'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM2.stretch', '#hsc']
 
 ---
 name: 'hsc_design'
-base: 'AM3.design'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM3.design', '#hsc']
 
 ---
 name: 'hsc_minimum'
-base: 'AM3.minimum'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM3.minimum', '#hsc']
 
 ---
 name: 'hsc_stretch'
-base: 'AM3.stretch'
-metadata_query:
-  instrument: 'HSC'
+base: ['AM3.stretch', '#hsc']
 
 ---
 name: 'hsc_design'
-base: 'TE1.design'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE1.design', '#hsc']
 
 ---
 name: 'hsc_minimum'
-base: 'TE1.minimum'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE1.minimum', '#hsc']
 
 ---
 name: 'hsc_stretch'
-base: 'TE1.stretch'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE1.stretch', '#hsc']
 
 ---
 name: 'hsc_design'
-base: 'TE2.design'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE2.design', '#hsc']
 
 ---
 name: 'hsc_minimum'
-base: 'TE2.minimum'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE2.minimum', '#hsc']
 
 ---
 name: 'hsc_stretch'
-base: 'TE2.stretch'
-metadata_query:
-  instrument: 'HSC'
+base: ['TE2.stretch', '#hsc']

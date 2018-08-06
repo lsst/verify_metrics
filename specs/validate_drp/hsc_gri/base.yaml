@@ -2,26 +2,27 @@
 
 ---
 # Select the HSC test dataset
-id: 'base'
+id: 'hsc'
 metadata_query:
   instrument: 'HSC'
   dataset_repo_url: 'https://github.com/lsst/validation_data_hsc.git'
+  dataset_name: 'validation_data_hsc'
   # May need to add specific visits and ccds for the test dataset
 
 ---
-id: 'base-g'
-base: '#base'
+id: 'hsc-g'
+base: '#hsc'
 metadata_query:
   filter_name: 'HSC-G'
 
 ---
-id: 'base-r'
-base: '#base'
+id: 'hsc-r'
+base: '#hsc'
 metadata_query:
   filter_name: 'HSC-R'
 
 ---
-id: 'base-i'
-base: '#base'
+id: 'hsc-i'
+base: '#hsc'
 metadata_query:
   filter_name: 'HSC-I'

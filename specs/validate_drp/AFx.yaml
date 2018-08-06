@@ -34,6 +34,8 @@ name: "srd"
 base: "#AF1-base"
 threshold:
   value: 10.0
+tags:
+  - design
 
 ---
 metric: "AF1_minimum"
@@ -41,6 +43,8 @@ name: "srd"
 base: "#AF1-base"
 threshold:
   value: 20.0
+tags:
+  - minimum
 
 ---
 metric: "AF1_stretch"
@@ -48,6 +52,8 @@ name: "srd"
 base: "#AF1-base"
 threshold:
   value: 5.0
+tags:
+  - stretch
 
 ---
 metric: "AF2_design"
@@ -55,6 +61,8 @@ name: "srd"
 base: "#AF2-base"
 threshold:
   value: 10.0
+tags:
+  - design
 
 ---
 metric: "AF2_minimum"
@@ -62,6 +70,8 @@ name: "srd"
 base: "#AF2-base"
 threshold:
   value: 20.0
+tags:
+  - minimum
 
 ---
 metric: "AF2_stretch"
@@ -69,6 +79,8 @@ name: "srd"
 base: "#AF2-base"
 threshold:
   value: 5.0
+tags:
+  - stretch
 
 ---
 metric: "AF3_design"
@@ -76,6 +88,8 @@ name: "srd"
 base: "#AF3-base"
 threshold:
   value: 10.0
+tags:
+  - design
 
 ---
 metric: "AF3_minimum"
@@ -83,6 +97,8 @@ name: "srd"
 base: "#AF3-base"
 threshold:
   value: 20.0
+tags:
+  - minimum
 
 ---
 metric: "AF3_stretch"
@@ -90,3 +106,5 @@ name: "srd"
 base: "#AF3-base"
 threshold:
   value: 5.0
+tags:
+  - stretch
