@@ -1,44 +1,44 @@
 ---
 # validate_drp.PA1.cfht_design_g
 name: 'cfht_design_g'
-base: ['PA1.design_gri', 'cfht_gri/base#cfht-g']
+base: ['PA1.design_gri', 'cfht_gri/base#base-g']
 
 ---
 # validate_drp.PA1.cfht_design_r
 name: 'cfht_design_r'
-base: ['PA1.design_gri', 'cfht_gri/base#cfht-r']
+base: ['PA1.design_gri', 'cfht_gri/base#base-r']
 
 ---
 # validate_drp.PA1.cfht_design_i
 name: 'cfht_design_i'
-base: ['PA1.design_gri', 'cfht_gri/base#cfht-i']
+base: ['PA1.design_gri', 'cfht_gri/base#base-i']
 
 ---
 # validate_drp.PA1.cfht_minimum_g
 name: 'cfht_minimum_g'
-base: ['PA1.minimum_gri', 'cfht_gri/base#cfht-g']
+base: ['PA1.minimum_gri', 'cfht_gri/base#base-g']
 
 ---
 # validate_drp.PA1.cfht_minimum_r
 name: 'cfht_minimum_r'
-base: ['PA1.minimum_gri', 'cfht_gri/base#cfht-r']
+base: ['PA1.minimum_gri', 'cfht_gri/base#base-r']
 
 ---
 # validate_drp.PA1.cfht_minimum_i
 name: 'cfht_minimum_i'
-base: ['PA1.minimum_gri', 'cfht_gri/base#cfht-i']
+base: ['PA1.minimum_gri', 'cfht_gri/base#base-i']
 
 ---
 # validate_drp.PA1.cfht_stretch_g
 name: 'cfht_stretch_g'
-base: ['PA1.stretch_gri', 'cfht_gri/base#cfht-g']
+base: ['PA1.stretch_gri', 'cfht_gri/base#base-g']
 
 ---
 # validate_drp.PA1.cfht_stretch_r
 name: 'cfht_stretch_r'
-base: ['PA1.stretch_gri', 'cfht_gri/base#cfht-r']
+base: ['PA1.stretch_gri', 'cfht_gri/base#base-r']
 
 ---
 # validate_drp.PA1.cfht_stretch_i
 name: 'cfht_stretch_i'
-base: ['PA1.stretch_gri', 'cfht_gri/base#cfht-i']
+base: ['PA1.stretch_gri', 'cfht_gri/base#base-i']

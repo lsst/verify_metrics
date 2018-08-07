@@ -10,7 +10,6 @@ PA1:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_minimum_gri:
   description: >
@@ -20,7 +19,6 @@ PF1_minimum_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_design_gri:
   description: >
@@ -30,7 +28,6 @@ PF1_design_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_stretch_gri:
   description: >
@@ -40,7 +37,6 @@ PF1_stretch_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_minimum_uzy:
   description: >
@@ -50,7 +46,6 @@ PF1_minimum_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_design_uzy:
   description: >
@@ -60,7 +55,6 @@ PF1_design_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PF1_stretch_uzy:
   description: >
@@ -70,7 +64,6 @@ PF1_stretch_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_minimum_gri:
   description: >
@@ -80,7 +73,6 @@ PA2_minimum_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_design_gri:
   description: >
@@ -90,7 +82,6 @@ PA2_design_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_stretch_gri:
   description: >
@@ -100,7 +91,6 @@ PA2_stretch_gri:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_minimum_uzy:
   description: >
@@ -110,7 +100,6 @@ PA2_minimum_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_design_uzy:
   description: >
@@ -120,7 +109,6 @@ PA2_design_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 PA2_stretch_uzy:
   description: >
@@ -130,7 +118,6 @@ PA2_stretch_uzy:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 21
-  tags: photometry
 
 AM1:
   description: >
@@ -140,7 +127,6 @@ AM1:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AM2:
   description: >
@@ -150,7 +136,6 @@ AM2:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AM3:
   description: >
@@ -160,7 +145,6 @@ AM3:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF1_minimum:
   description: >
@@ -170,7 +154,6 @@ AF1_minimum:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF1_design:
   description: >
@@ -180,7 +163,6 @@ AF1_design:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF1_stretch:
   description: >
@@ -190,7 +172,6 @@ AF1_stretch:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF2_minimum:
   description: >
@@ -200,7 +181,6 @@ AF2_minimum:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF2_design:
   description: >
@@ -210,7 +190,6 @@ AF2_design:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF2_stretch:
   description: >
@@ -220,7 +199,6 @@ AF2_stretch:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AF3_minimum:
   reference:
@@ -230,7 +208,6 @@ AF3_minimum:
   unit: '%'
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
-  tags: astrometry
 
 AF3_design:
   reference:
@@ -240,7 +217,6 @@ AF3_design:
   unit: '%'
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
-  tags: astrometry
 
 AF3_stretch:
   reference:
@@ -250,7 +226,6 @@ AF3_stretch:
   unit: '%'
   description: >
     The maximum fraction of astrometric distances which deviate by more than AD3 milliarcsec (see AM3).
-  tags: astrometry
 
 AD1_minimum:
   description: >
@@ -260,7 +235,6 @@ AD1_minimum:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD1_design:
   description: >
@@ -270,7 +244,6 @@ AD1_design:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD1_stretch:
   description: >
@@ -280,7 +253,6 @@ AD1_stretch:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD2_minimum:
   description: >
@@ -290,7 +262,6 @@ AD2_minimum:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD2_design:
   description: >
@@ -300,7 +271,6 @@ AD2_design:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD2_stretch:
   description: >
@@ -310,7 +280,6 @@ AD2_stretch:
     doc: LPM-17
     url: http://ls.st/lpm-17
     page: 23
-  tags: astrometry
 
 AD3_minimum:
   reference:
@@ -320,7 +289,6 @@ AD3_minimum:
   unit: milliarcsecond
   description: >
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
-  tags: astrometry
 
 AD3_design:
   reference:
@@ -330,7 +298,6 @@ AD3_design:
   unit: milliarcsecond
   description: >
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
-  tags: astrometry
 
 AD3_stretch:
   reference:
@@ -340,7 +307,6 @@ AD3_stretch:
   unit: milliarcsecond
   description: >
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
-  tags: astrometry
 
 TE1:
   reference:
@@ -351,7 +317,6 @@ TE1:
   description: >
     The averaged E1, E2, and Ex residual PSF ellipticity correlations
     must have median absolute value less than this for separations < 1 arcmin.
-  tags: image_quality
 
 TE2:
   reference:
@@ -362,4 +327,3 @@ TE2:
   description: >
     The averaged E1, E2, and Ex residual PSF ellipticity correlations
     must have median absolute value less than this for separations > 5 arcmin.
-  tags: image_quality

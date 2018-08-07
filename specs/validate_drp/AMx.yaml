@@ -36,69 +36,51 @@ name: "design"
 base: "#AM1-base"
 threshold:
   value: 10.0
-tags:
-  - design
 
 ---
 name: "minimum"
 base: "#AM1-base"
 threshold:
   value: 20.0
-tags:
-  - minimum
 
 ---
 name: "stretch"
 base: "#AM1-base"
 threshold:
   value: 5.0
-tags:
-  - stretch
 
 ---
 name: "design"
 base: "#AM2-base"
 threshold:
   value: 10.0
-tags:
-  - design
 
 ---
 name: "minimum"
 base: "#AM2-base"
 threshold:
   value: 20.0
-tags:
-  - minimum
 
 ---
 name: "stretch"
 base: "#AM2-base"
 threshold:
   value: 5.0
-tags:
-  - stretch
-
 ---
+
 name: "design"
 base: "#AM3-base"
 threshold:
   value: 15.0
-tags:
-  - design
 
 ---
 name: "minimum"
 base: "#AM3-base"
 threshold:
   value: 30.0
-tags:
-  - minimum
 
 ---
 name: "stretch"
 base: "#AM3-base"
 threshold:
   value: 10.0
-tags:
-  - stretch

@@ -1,44 +1,44 @@
 ---
 # validate_drp.PA1.hsc_design_u
 name: 'hsc_design_u'
-base: ['PA1.design_uzy', 'hsc_uzy/base#hsc-u']
+base: ['PA1.design_uzy', 'hsc_uzy/base#base-u']
 
 ---
 # validate_drp.PA1.hsc_design_z
 name: 'hsc_design_z'
-base: ['PA1.design_uzy', 'hsc_uzy/base#hsc-z']
+base: ['PA1.design_uzy', 'hsc_uzy/base#base-z']
 
 ---
 # validate_drp.PA1.hsc_design_y
 name: 'hsc_design_y'
-base: ['PA1.design_uzy', 'hsc_uzy/base#hsc-y']
+base: ['PA1.design_uzy', 'hsc_uzy/base#base-y']
 
 ---
 # validate_drp.PA1.hsc_minimum_u
 name: 'hsc_minimum_u'
-base: ['PA1.minimum_uzy', 'hsc_uzy/base#hsc-u']
+base: ['PA1.minimum_uzy', 'hsc_uzy/base#base-u']
 
 ---
 # validate_drp.PA1.hsc_minimum_z
 name: 'hsc_minimum_z'
-base: ['PA1.minimum_uzy', 'hsc_uzy/base#hsc-z']
+base: ['PA1.minimum_uzy', 'hsc_uzy/base#base-z']
 
 ---
 # validate_drp.PA1.hsc_minimum_y
 name: 'hsc_minimum_y'
-base: ['PA1.minimum_uzy', 'hsc_uzy/base#hsc-y']
+base: ['PA1.minimum_uzy', 'hsc_uzy/base#base-y']
 
 ---
 # validate_drp.PA1.hsc_stretch_u
 name: 'hsc_stretch_u'
-base: ['PA1.stretch_uzy', 'hsc_uzy/base#hsc-u']
+base: ['PA1.stretch_uzy', 'hsc_uzy/base#base-u']
 
 ---
 # validate_drp.PA1.hsc_stretch_z
 name: 'hsc_stretch_z'
-base: ['PA1.stretch_uzy', 'hsc_uzy/base#hsc-z']
+base: ['PA1.stretch_uzy', 'hsc_uzy/base#base-z']
 
 ---
 # validate_drp.PA1.hsc_stretch_y
 name: 'hsc_stretch_y'
-base: ['PA1.stretch_uzy', 'hsc_uzy/base#hsc-y']
+base: ['PA1.stretch_uzy', 'hsc_uzy/base#base-y']

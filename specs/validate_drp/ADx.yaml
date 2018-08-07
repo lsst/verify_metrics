@@ -34,8 +34,6 @@ name: "srd"
 base: "#AD1-base"
 threshold:
   value: 20.0
-tags:
-  - design
 
 ---
 metric: "AD1_minimum"
@@ -43,8 +41,6 @@ name: "srd"
 base: "#AD1-base"
 threshold:
   value: 40.0
-tags:
-  - minimum
 
 ---
 metric: "AD1_stretch"
@@ -52,8 +48,6 @@ name: "srd"
 base: "#AD1-base"
 threshold:
   value: 10.0
-tags:
-  - stretch
 
 ---
 metric: "AD2_design"
@@ -61,8 +55,6 @@ name: "srd"
 base: "#AD2-base"
 threshold:
   value: 20.0
-tags:
-  - design
 
 ---
 metric: "AD2_minimum"
@@ -70,8 +62,6 @@ name: "srd"
 base: "#AD2-base"
 threshold:
   value: 40.0
-tags:
-  - minimum
 
 ---
 metric: "AD2_stretch"
@@ -79,8 +69,6 @@ name: "srd"
 base: "#AD2-base"
 threshold:
   value: 10.0
-tags:
-  - stretch
 
 ---
 metric: "AD3_design"
@@ -88,8 +76,6 @@ name: "srd"
 base: "#AD3-base"
 threshold:
   value: 30.0
-tags:
-  - design
 
 ---
 metric: "AD3_minimum"
@@ -97,8 +83,6 @@ name: "srd"
 base: "#AD3-base"
 threshold:
   value: 50.0
-tags:
-  - minimum
 
 ---
 metric: "AD3_stretch"
@@ -106,5 +90,3 @@ name: "srd"
 base: "#AD3-base"
 threshold:
   value: 20.0
-tags:
-  - stretch

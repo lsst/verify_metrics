@@ -19,45 +19,33 @@ name: "minimum_gri"
 base: "#PA1-base"
 threshold:
   value: 8.0
-tags:
-  - minimum
 
 ---
 name: "design_gri"
 base: "#PA1-base"
 threshold:
   value: 5.0
-tags:
-  - design
 
 ---
 name: "stretch_gri"
 base: "#PA1-base"
 threshold:
   value: 3.0
-tags:
-  - stretch
 
 ---
 name: "minimum_uzy"
 base: "#PA1-base"
 threshold:
   value: 12.0
-tags:
-  - minimum
 
 ---
 name: "design_uzy"
 base: "#PA1-base"
 threshold:
   value: 7.5
-tags:
-  - design
 
 ---
 name: "stretch_uzy"
 base: "#PA1-base"
 threshold:
   value: 4.5
-tags:
-  - stretch

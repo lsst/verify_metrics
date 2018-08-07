@@ -1,141 +1,197 @@
 ---
-# Select the CFHT test dataset
-id: 'cfht'
+name: 'cfht'
+base: 'AD1_design.srd'
 metadata_query:
   instrument: 'CFHT'
-  dataset_repo_url: 'https://github.com/lsst/validation_data_cfht.git'
-  dataset_name: 'validation_data_cfht'
-  visits: [849375, 850587]
-  ccds: [12, 13, 14, 21, 22, 23]
 
 ---
 name: 'cfht'
-base: ['AD1_design.srd', '#cfht']
+base: 'AD1_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD1_minimum.srd', '#cfht']
+base: 'AD1_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD1_stretch.srd', '#cfht']
+base: 'AD2_design.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD2_design.srd', '#cfht']
+base: 'AD2_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD2_minimum.srd', '#cfht']
+base: 'AD2_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD2_stretch.srd', '#cfht']
+base: 'AD3_design.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD3_design.srd', '#cfht']
+base: 'AD3_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD3_minimum.srd', '#cfht']
+base: 'AD3_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AD3_stretch.srd', '#cfht']
+base: 'AF1_design.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF1_design.srd', '#cfht']
+base: 'AF1_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF1_minimum.srd', '#cfht']
+base: 'AF1_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF1_stretch.srd', '#cfht']
+base: 'AF2_design.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF2_design.srd', '#cfht']
+base: 'AF2_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF2_minimum.srd', '#cfht']
+base: 'AF2_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF2_stretch.srd', '#cfht']
+base: 'AF3_design.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF3_design.srd', '#cfht']
+base: 'AF3_minimum.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'cfht'
-base: ['AF3_minimum.srd', '#cfht']
-
----
-name: 'cfht'
-base: ['AF3_stretch.srd', '#cfht']
+base: 'AF3_stretch.srd'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_design'
-base: ['AM1.design', '#cfht']
+base: 'AM1.design'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_minimum'
-base: ['AM1.minimum', '#cfht']
+base: 'AM1.minimum'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_stretch'
-base: ['AM1.stretch', '#cfht']
+base: 'AM1.stretch'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_design'
-base: ['AM2.design', '#cfht']
+base: 'AM2.design'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_minimum'
-base: ['AM2.minimum', '#cfht']
+base: 'AM2.minimum'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_stretch'
-base: ['AM2.stretch', '#cfht']
+base: 'AM2.stretch'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_design'
-base: ['AM3.design', '#cfht']
+base: 'AM3.design'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_minimum'
-base: ['AM3.minimum', '#cfht']
+base: 'AM3.minimum'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_stretch'
-base: ['AM3.stretch', '#cfht']
+base: 'AM3.stretch'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_design'
-base: ['TE1.design', '#cfht']
+base: 'TE1.design'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_minimum'
-base: ['TE1.minimum', '#cfht']
+base: 'TE1.minimum'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_stretch'
-base: ['TE1.stretch', '#cfht']
+base: 'TE1.stretch'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_design'
-base: ['TE2.design', '#cfht']
+base: 'TE2.design'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_minimum'
-base: ['TE2.minimum', '#cfht']
+base: 'TE2.minimum'
+metadata_query:
+  instrument: 'CFHT'
 
 ---
 name: 'CFHT_stretch'
-base: ['TE2.stretch', '#cfht']
+base: 'TE2.stretch'
+metadata_query:
+  instrument: 'CFHT'

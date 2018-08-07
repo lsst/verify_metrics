@@ -1,44 +1,44 @@
 ---
 # validate_drp.PF1_minimum_uzy.decam_u
 name: 'decam_u'
-base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#decam-u']
+base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#base-u']
 
 ---
 # validate_drp.PF1_minimum_uzy.decam_z
 name: 'decam_z'
-base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#decam-z']
+base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#base-z']
 
 ---
 # validate_drp.PF1_minimum_uzy.decam_y
 name: 'decam_y'
-base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#decam-y']
+base: ['PF1_minimum_uzy.srd', 'decam_uzy/base#base-y']
 
 ---
 # validate_drp.PF1_design_uzy.decam_u
 name: 'decam_u'
-base: ['PF1_design_uzy.srd', 'decam_uzy/base#decam-u']
+base: ['PF1_design_uzy.srd', 'decam_uzy/base#base-u']
 
 ---
 # validate_drp.PF1_design_uzy.decam_z
 name: 'decam_z'
-base: ['PF1_design_uzy.srd', 'decam_uzy/base#decam-z']
+base: ['PF1_design_uzy.srd', 'decam_uzy/base#base-z']
 
 ---
 # validate_drp.PF1_design_uzy.decam_y
 name: 'decam_y'
-base: ['PF1_design_uzy.srd', 'decam_uzy/base#decam-y']
+base: ['PF1_design_uzy.srd', 'decam_uzy/base#base-y']
 
 ---
 # validate_drp.PF1_stretch_uzy.decam_u
 name: 'decam_u'
-base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#decam-u']
+base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#base-u']
 
 ---
 # validate_drp.PF1_stretch_uzy.decam_z
 name: 'decam_z'
-base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#decam-z']
+base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#base-z']
 
 ---
 # validate_drp.PF1_stretch_uzy.decam_y
 name: 'decam_y'
-base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#decam-y']
+base: ['PF1_stretch_uzy.srd', 'decam_uzy/base#base-y']
