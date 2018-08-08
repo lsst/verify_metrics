@@ -80,61 +80,61 @@ name: 'decam'
 base: ['AF3_stretch.srd', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_design'
 base: ['AM1.design', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_minimum'
 base: ['AM1.minimum', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_stretch'
 base: ['AM1.stretch', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_design'
 base: ['AM2.design', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_minimum'
 base: ['AM2.minimum', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_stretch'
 base: ['AM2.stretch', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_design'
 base: ['AM3.design', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_minimum'
 base: ['AM3.minimum', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_stretch'
 base: ['AM3.stretch', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_design'
 base: ['TE1.design', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_minimum'
 base: ['TE1.minimum', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_stretch'
 base: ['TE1.stretch', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_design'
 base: ['TE2.design', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_minimum'
 base: ['TE2.minimum', '#decam']
 
 ---
-name: 'decam'
+name: 'decam_stretch'
 base: ['TE2.stretch', '#decam']
