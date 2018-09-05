@@ -1,0 +1,87 @@
+# Specifications for validate_drp metrics against validation_data_cfht
+
+---
+# Select the CFHT test dataset
+id: 'release-base'
+metadata_query:
+  instrument: 'CFHT'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_cfht.git'
+  # May need to add specific visits and ccds for the test dataset
+
+---
+id: 'release-base-g'
+base: '#release-base'
+metadata_query:
+  filter_name: 'g'
+
+---
+id: 'release-base-r'
+base: '#release-base'
+metadata_query:
+  filter_name: 'r'
+
+---
+id: 'release-base-i'
+base: '#release-base'
+metadata_query:
+  filter_name: 'i'
+
+---
+name: 'FY17_cfht_g'
+base: ['PA1.FY17_gri', '#release-base-g']
+
+---
+name: 'FY18_cfht_g'
+base: ['PA1.FY17_gri', '#release-base-g']
+
+---
+name: 'FY19_cfht_g'
+base: ['PA1.FY17_gri', '#release-base-g']
+
+---
+name: 'FY20_cfht_g'
+base: ['PA1.FY17_gri', '#release-base-g']
+
+---
+name: 'ORR_cfht_g'
+base: ['PA1.FY17_gri', '#release-base-g']
+
+---
+name: 'FY17_cfht_r'
+base: ['PA1.FY17_gri', '#release-base-r']
+
+---
+name: 'FY18_cfht_r'
+base: ['PA1.FY17_gri', '#release-base-r']
+
+---
+name: 'FY19_cfht_r'
+base: ['PA1.FY17_gri', '#release-base-r']
+
+---
+name: 'FY20_cfht_r'
+base: ['PA1.FY17_gri', '#release-base-r']
+
+---
+name: 'ORR_cfht_r'
+base: ['PA1.FY17_gri', '#release-base-r']
+
+---
+name: 'FY17_cfht_i'
+base: ['PA1.FY17_gri', '#release-base-i']
+
+---
+name: 'FY18_cfht_i'
+base: ['PA1.FY17_gri', '#release-base-i']
+
+---
+name: 'FY19_cfht_i'
+base: ['PA1.FY17_gri', '#release-base-i']
+
+---
+name: 'FY20_cfht_i'
+base: ['PA1.FY17_gri', '#release-base-i']
+
+---
+name: 'ORR_cfht_i'
+base: ['PA1.FY17_gri', '#release-base-i']
