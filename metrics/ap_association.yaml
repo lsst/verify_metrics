@@ -3,7 +3,7 @@
 AssociationTime: &RunningTime
     description: Total time elapsed in AssociationTask.
     unit: s
-    reference:
+    reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
     tags:
         - ap_verify
@@ -11,3 +11,30 @@ AssociationTime: &RunningTime
         - task
         - monitoring
 
+numNewDiaObjects: &SourceCount
+    description: Number of DIASources that create new DIAObjects in this image.
+    unit: ct
+    reference: *ApMetrics
+    tags: &DiffimCcdMetric !!set
+        ? ap_verify
+        ? diffim
+        ? assoc
+        ? CCD
+
+numUnassociatedDiaObjects:
+    <<: *SourceCount
+    description: Number of previously-known DIAObjects that do not have detected DIASources here.
+
+totalUnassociatedDiaObjects:
+    <<: *SourceCount
+    description: Number of DIAObjects that are only detected once
+    tags: &DatasetMetric !!set
+        ? ap_verify
+        ? assoc
+        ? dataset
+
+fracUpdatedDiaObjects: &SourceFraction
+    description: Fraction of known previously-known DIAObjects that have detected DIAsources here.
+    unit: '%'
+    reference: *ApMetrics
+    tags: *DiffimCcdMetric

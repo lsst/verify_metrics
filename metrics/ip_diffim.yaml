@@ -3,7 +3,7 @@
 ImagePsfMatchTime: &RunningTime
     description: Total time elapsed in ImagePsfMatchTask.
     unit: s
-    reference:
+    reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
     tags:
         - ap_verify
@@ -15,3 +15,19 @@ DipoleFitTime:
     <<: *RunningTime
     description: Total time elapsed in DipoleFitTask.
 
+fracDiaSourcesToSciSources:
+    description: fraction of DIASources/science sources
+    unit: '%'
+    reference: *ApMetrics
+    tags: &CcdMetric !!set
+        ? ap_verify
+        ? diffim
+        ? CCD
+
+numSciSources:
+    description: Number of DIASources (positive and negative)
+    unit: ct
+    reference: *ApMetrics
+    tags: !!set
+        <<: *CcdMetric
+        ? monitoring
