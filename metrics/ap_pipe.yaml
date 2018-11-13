@@ -1,0 +1,13 @@
+# Metric definitions in ap_pipe
+
+ApPipeTime: &RunningTime
+    description: Total time elapsed in ApPipeTask.
+    unit: s
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - pipeline
+        - monitoring
+
