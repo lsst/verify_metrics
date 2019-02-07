@@ -1,7 +1,7 @@
 # Metric definitions in ip_isr
 
 IsrTime: &RunningTime
-    description: Total time elapsed in IsrTask.
+    description: Wall-clock time elapsed in IsrTask.
     unit: s
     reference:
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics

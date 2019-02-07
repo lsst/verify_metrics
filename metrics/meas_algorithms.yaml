@@ -1,7 +1,7 @@
 # Metric definitions in meas_algorithms
 
 SourceDetectionTime: &RunningTime
-    description: Total time elapsed in SourceDetectionTask.
+    description: Wall-clock time elapsed in SourceDetectionTask.
     unit: s
     reference:
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics

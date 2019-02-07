@@ -1,7 +1,7 @@
 # Metric definitions in ap_verify
 
 WallClockTime: &RunningTime
-    description: Total time elapsed in the pipeline.
+    description: Wall-clock time elapsed in the pipeline.
     unit: s
     reference:
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
