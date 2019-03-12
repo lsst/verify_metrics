@@ -1,7 +1,7 @@
 # Metric definitions in ip_diffim
 
 ImagePsfMatchTime: &RunningTime
-    description: Total time elapsed in ImagePsfMatchTask.
+    description: Wall-clock time elapsed in ImagePsfMatchTask.
     unit: s
     reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
@@ -13,7 +13,7 @@ ImagePsfMatchTime: &RunningTime
 
 DipoleFitTime:
     <<: *RunningTime
-    description: Total time elapsed in DipoleFitTask.
+    description: Wall-clock time elapsed in DipoleFitTask.
 
 fracDiaSourcesToSciSources:
     description: fraction of DIASources/science sources

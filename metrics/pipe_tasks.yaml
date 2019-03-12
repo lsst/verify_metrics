@@ -1,7 +1,7 @@
 # Metric definitions in pipe_tasks
 
 ProcessCcdTime: &RunningTime
-    description: Total time elapsed in ProcessCcdTask.
+    description: Wall-clock time elapsed in ProcessCcdTask.
     unit: s
     reference:
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
@@ -13,17 +13,17 @@ ProcessCcdTime: &RunningTime
 
 CharacterizeImageTime:
     <<: *RunningTime
-    description: Total time elapsed in CharacterizeImageTask.
+    description: Wall-clock time elapsed in CharacterizeImageTask.
 
 CalibrateTime:
     <<: *RunningTime
-    description: Total time elapsed in CalibrateTask.
+    description: Wall-clock time elapsed in CalibrateTask.
 
 ImageDifferenceTime:
     <<: *RunningTime
-    description: Total time elapsed in ImageDifferenceTask.
+    description: Wall-clock time elapsed in ImageDifferenceTask.
 
 RegisterImageTime:
     <<: *RunningTime
-    description: Total time elapsed in registerImage.RegisterTask.
+    description: Wall-clock time elapsed in registerImage.RegisterTask.
 
