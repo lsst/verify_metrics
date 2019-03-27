@@ -3,7 +3,7 @@
 ---
 # Specification partial
 id: 'astrometry_ndof-base'
-metric: 'astrometry_ndof'
+metric: 'astrometry_final_ndof'
 threshold:
   operator: "=="
   unit: ''

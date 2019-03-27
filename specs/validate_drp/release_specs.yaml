@@ -1,0 +1,194 @@
+# Metrics from LPM-17 (the Science Requirements Document)
+# http://ls.st/lpm-17
+# Requirements from LDM-240, Sheet 3
+#  for FY17
+# https://docushare.lsstcorp.org/docushare/dsweb/Services/LDM-240
+# PA2 requirements from FY17-ORR were created by MWV inspired
+# by similar progressions for similar metrics.
+
+# Spec parital
+---
+id: 'PA1-base'
+metric: 'PA1'
+tags:
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: '<='
+
+---
+name: 'FY17_gri'
+base: '#PA1-base'
+threshold:
+  value: 8.0
+
+---
+name: 'FY17_uzy'
+base: '#PA1-base'
+threshold:
+  value: 12.0
+
+---
+name: 'FY18_gri'
+base: '#PA1-base'
+threshold:
+  value: 8.0
+
+---
+name: 'FY18_uzy'
+base: '#PA1-base'
+threshold:
+  value: 12.0
+
+---
+name: 'FY19_gri'
+base: '#PA1-base'
+threshold:
+  value: 6.0
+
+---
+name: 'FY19_uzy'
+base: '#PA1-base'
+threshold:
+  value: 8.0
+
+---
+name: 'FY20_gri'
+base: '#PA1-base'
+threshold:
+  value: 5.5
+
+---
+name: 'FY20_uzy'
+base: '#PA1-base'
+threshold:
+  value: 8.0
+
+---
+name: 'ORR_gri'
+base: '#PA1-base'
+threshold:
+  value: 5.0
+
+---
+name: 'ORR_uzy'
+base: '#PA1-base'
+threshold:
+  value: 7.5
+
+---
+id: 'AM1-base'
+metric: 'AM1'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AM1-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY18'
+base: '#AM1-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY19'
+base: '#AM1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY20'
+base: '#AM1-base'
+threshold:
+  value: 15.0
+
+---
+name: 'ORR'
+base: '#AM1-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AM2-base'
+metric: 'AM2'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AM2-base'
+threshold:
+  value: 40.0
+
+---
+name: 'FY18'
+base: '#AM2-base'
+threshold:
+  value: 40.0
+
+---
+name: 'FY19'
+base: '#AM2-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY20'
+base: '#AM2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AM2-base'
+threshold:
+  value: 15.0
+
+---
+id: 'AM3-base'
+metric: 'AM3'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AM3-base'
+threshold:
+  value: 40.0
+
+---
+name: 'FY18'
+base: '#AM3-base'
+threshold:
+  value: 40.0
+
+---
+name: 'FY19'
+base: '#AM3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY20'
+base: '#AM3-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AM3-base'
+threshold:
+  value: 15.0

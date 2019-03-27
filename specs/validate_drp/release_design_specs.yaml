@@ -1,86 +1,8 @@
-# Metrics from LPM-17 (the Science Requirements Document)
-# http://ls.st/lpm-17
-# Requirements from LDM-240, Sheet 3
-#  for FY17
-# https://docushare.lsstcorp.org/docushare/dsweb/Services/LDM-240
-# PA2 requirements from FY17-ORR were created by MWV inspired
-# by similar progressions for similar metrics.
-
-# Spec parital
----
-id: 'PA1-base'
-metric: 'PA1'
-tags:
-  - 'chromatic'
-threshold:
-  unit: 'mmag'
-  operator: '<='
-
----
-name: 'FY17_gri'
-base: '#PA1-base'
-threshold:
-  value: 8.0
-
----
-name: 'FY17_uzy'
-base: '#PA1-base'
-threshold:
-  value: 12.0
-
----
-name: 'FY18_gri'
-base: '#PA1-base'
-threshold:
-  value: 8.0
-
----
-name: 'FY18_uzy'
-base: '#PA1-base'
-threshold:
-  value: 12.0
-
----
-name: 'FY19_gri'
-base: '#PA1-base'
-threshold:
-  value: 6.0
-
----
-name: 'FY19_uzy'
-base: '#PA1-base'
-threshold:
-  value: 8.0
-
----
-name: 'FY20_gri'
-base: '#PA1-base'
-threshold:
-  value: 5.5
-
----
-name: 'FY20_uzy'
-base: '#PA1-base'
-threshold:
-  value: 8.0
-
----
-name: 'ORR_gri'
-base: '#PA1-base'
-threshold:
-  value: 5.0
-
----
-name: 'ORR_uzy'
-base: '#PA1-base'
-threshold:
-  value: 7.5
-
 ---
 id: 'PF1-base'
-metric: 'PF1'
+metric: 'validate_drp.PF1_design_gri'
 tags:
-  - 'achromatic'
+  - 'chromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -117,9 +39,9 @@ threshold:
 
 ---
 id: 'PA2-base'
-metric: 'PA2'
+metric: 'validate_drp.PA2_design_gri'
 tags:
-  - 'achromatic'
+  - 'chromatic'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -155,125 +77,8 @@ threshold:
   value: 15.0
 
 ---
-id: 'AM1-base'
-metric: 'AM1'
-tags:
-  - 'achromatic'
-threshold:
-  unit: 'marcsec'
-  operator: '<='
-
----
-name: 'FY17'
-base: '#AM1-base'
-threshold:
-  value: 30.0
-
----
-name: 'FY18'
-base: '#AM1-base'
-threshold:
-  value: 30.0
-
----
-name: 'FY19'
-base: '#AM1-base'
-threshold:
-  value: 20.0
-
----
-name: 'FY20'
-base: '#AM1-base'
-threshold:
-  value: 15.0
-
----
-name: 'ORR'
-base: '#AM1-base'
-threshold:
-  value: 10.0
-
----
-id: 'AM2-base'
-metric: 'AM2'
-tags:
-  - 'achromatic'
-threshold:
-  unit: 'marcsec'
-  operator: '<='
-
----
-name: 'FY17'
-base: '#AM2-base'
-threshold:
-  value: 40.0
-
----
-name: 'FY18'
-base: '#AM2-base'
-threshold:
-  value: 40.0
-
----
-name: 'FY19'
-base: '#AM2-base'
-threshold:
-  value: 30.0
-
----
-name: 'FY20'
-base: '#AM2-base'
-threshold:
-  value: 20.0
-
----
-name: 'ORR'
-base: '#AM2-base'
-threshold:
-  value: 15.0
-
----
-id: 'AM3-base'
-metric: 'AM3'
-tags:
-  - 'achromatic'
-threshold:
-  unit: 'marcsec'
-  operator: '<='
-
----
-name: 'FY17'
-base: '#AM3-base'
-threshold:
-  value: 40.0
-
----
-name: 'FY18'
-base: '#AM3-base'
-threshold:
-  value: 40.0
-
----
-name: 'FY19'
-base: '#AM3-base'
-threshold:
-  value: 30.0
-
----
-name: 'FY20'
-base: '#AM3-base'
-threshold:
-  value: 20.0
-
----
-name: 'ORR'
-base: '#AM3-base'
-threshold:
-  value: 15.0
-
----
 id: 'AF1-base'
-metric: 'AF1'
+metric: 'validate_drp.AF1_design'
 tags:
   - 'achromatic'
 threshold:
@@ -312,7 +117,7 @@ threshold:
 
 ---
 id: 'AF2-base'
-metric: 'AF2'
+metric: 'validate_drp.AF2_design'
 tags:
   - 'achromatic'
 threshold:
@@ -351,7 +156,7 @@ threshold:
 
 ---
 id: 'AF3-base'
-metric: 'AF3'
+metric: 'validate_drp.AF3_design'
 tags:
   - 'achromatic'
 threshold:
@@ -390,7 +195,7 @@ threshold:
 
 ---
 id: 'AD1-base'
-metric: 'AD1'
+metric: 'validate_drp.AD1_design'
 tags:
   - 'achromatic'
 threshold:
@@ -429,7 +234,7 @@ threshold:
 
 ---
 id: 'AD2-base'
-metric: 'AD2'
+metric: 'validate_drp.AD2_design'
 tags:
   - 'achromatic'
 threshold:
@@ -468,7 +273,319 @@ threshold:
 
 ---
 id: 'AD3-base'
-metric: 'AD3'
+metric: 'validate_drp.AD3_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY18'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY19'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY20'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'ORR'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+id: 'PF1-base'
+metric: 'validate_drp.PF1_design_uzy'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#PF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#PF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#PF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#PF1-base'
+threshold:
+  value: 10.0
+
+---
+id: 'PA2-base'
+metric: 'validate_drp.PA2_design_uzy'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'mmag'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PA2-base'
+threshold:
+  value: 22.5
+
+---
+name: 'FY18'
+base: '#PA2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#PA2-base'
+threshold:
+  value: 17.5
+
+---
+name: 'FY20'
+base: '#PA2-base'
+threshold:
+  value: 15.0
+
+---
+name: 'ORR'
+base: '#PA2-base'
+threshold:
+  value: 15.0
+
+---
+id: 'AF1-base'
+metric: 'validate_drp.AF1_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AF2-base'
+metric: 'validate_drp.AF2_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AF3-base'
+metric: 'validate_drp.AF3_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AD1-base'
+metric: 'validate_drp.AD1_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY18'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY20'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+id: 'AD2-base'
+metric: 'validate_drp.AD2_design'
+tags:
+  - 'achromatic'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY18'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY20'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+id: 'AD3-base'
+metric: 'validate_drp.AD3_design'
 tags:
   - 'achromatic'
 threshold:
