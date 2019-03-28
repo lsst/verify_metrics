@@ -6,7 +6,7 @@
 ---
 # Specification partial
 id: 'astrometry_chisq-base'
-metric: 'astrometry_final_chi2'
+metric: 'astrometry_chisq'
 threshold:
   operator: "<="
   unit: ''
