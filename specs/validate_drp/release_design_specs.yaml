@@ -2,7 +2,7 @@
 id: 'PF1-base'
 metric: 'validate_drp.PF1_design_gri'
 tags:
-  - 'chromatic'
+  - 'achromatic'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -41,7 +41,7 @@ threshold:
 id: 'PA2-base'
 metric: 'validate_drp.PA2_design_gri'
 tags:
-  - 'chromatic'
+  - 'achromatic'
 threshold:
   unit: 'mmag'
   operator: '<='
