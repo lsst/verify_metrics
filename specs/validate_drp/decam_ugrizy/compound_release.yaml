@@ -1,0 +1,369 @@
+---
+# Select the DECam test dataset
+id: 'decam'
+metadata_query:
+  instrument: 'DECAM'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_decam.git'
+  dataset_name: 'validation_data_decam'
+  # May need to add specific visits and ccds for the test dataset
+
+---
+name: 'decam_FY17'
+base: ['AD1_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD1_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD1_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD1_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD1_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD1_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD1_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD1_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD1_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD1_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD1_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD1_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD1_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD1_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD1_design.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD2_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD2_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD2_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD2_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD2_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD2_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD2_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD2_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD2_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD2_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD2_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD2_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD2_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD2_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD2_design.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD3_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD3_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD3_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD3_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD3_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD3_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD3_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD3_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD3_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD3_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AD3_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AD3_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AD3_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AD3_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AD3_design.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF1_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF1_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF1_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF1_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF1_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF1_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF1_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF1_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF1_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF1_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF1_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF1_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF1_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF1_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF1_design.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF2_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF2_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF2_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF2_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF2_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF2_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF2_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF2_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF2_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF2_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF2_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF2_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF2_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF2_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF2_design.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF3_stretch.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF3_stretch.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF3_stretch.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF3_stretch.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF3_stretch.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF3_minimum.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF3_minimum.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF3_minimum.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF3_minimum.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF3_minimum.ORR', '#decam']
+
+---
+name: 'decam_FY17'
+base: ['AF3_design.FY17', '#decam']
+
+---
+name: 'decam_FY18'
+base: ['AF3_design.FY18', '#decam']
+
+---
+name: 'decam_FY19'
+base: ['AF3_design.FY19', '#decam']
+
+---
+name: 'decam_FY20'
+base: ['AF3_design.FY20', '#decam']
+
+---
+name: 'decam_ORR'
+base: ['AF3_design.ORR', '#decam']
+

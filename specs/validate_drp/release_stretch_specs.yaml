@@ -3,6 +3,7 @@ id: 'PF1-base-gri'
 metric: 'validate_drp.PF1_stretch_gri'
 tags:
   - 'chromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -42,6 +43,7 @@ id: 'PA2-base-gri'
 metric: 'validate_drp.PA2_stretch_gri'
 tags:
   - 'chromatic'
+  - 'release'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -81,6 +83,7 @@ id: 'AF1-base'
 metric: 'validate_drp.AF1_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -120,6 +123,7 @@ id: 'AF2-base'
 metric: 'validate_drp.AF2_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -159,6 +163,7 @@ id: 'AF3-base'
 metric: 'validate_drp.AF3_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -198,6 +203,7 @@ id: 'AD1-base'
 metric: 'validate_drp.AD1_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -237,6 +243,7 @@ id: 'AD2-base'
 metric: 'validate_drp.AD2_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -276,6 +283,7 @@ id: 'AD3-base'
 metric: 'validate_drp.AD3_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -315,6 +323,7 @@ id: 'PF1-base-uzy'
 metric: 'validate_drp.PF1_stretch_uzy'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -354,6 +363,7 @@ id: 'PA2-base-uzy'
 metric: 'validate_drp.PA2_stretch_uzy'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -393,6 +403,7 @@ id: 'AF1-base'
 metric: 'validate_drp.AF1_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -432,6 +443,7 @@ id: 'AF2-base'
 metric: 'validate_drp.AF2_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -471,6 +483,7 @@ id: 'AF3-base'
 metric: 'validate_drp.AF3_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'percent'
   operator: '<='
@@ -510,6 +523,7 @@ id: 'AD1-base'
 metric: 'validate_drp.AD1_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -549,6 +563,7 @@ id: 'AD2-base'
 metric: 'validate_drp.AD2_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -588,6 +603,7 @@ id: 'AD3-base'
 metric: 'validate_drp.AD3_stretch'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='

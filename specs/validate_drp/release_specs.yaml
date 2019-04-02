@@ -12,6 +12,7 @@ id: 'PA1-base'
 metric: 'PA1'
 tags:
   - 'chromatic'
+  - 'release'
 threshold:
   unit: 'mmag'
   operator: '<='
@@ -81,6 +82,7 @@ id: 'AM1-base'
 metric: 'AM1'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -120,6 +122,7 @@ id: 'AM2-base'
 metric: 'AM2'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
@@ -159,6 +162,7 @@ id: 'AM3-base'
 metric: 'AM3'
 tags:
   - 'achromatic'
+  - 'release'
 threshold:
   unit: 'marcsec'
   operator: '<='
