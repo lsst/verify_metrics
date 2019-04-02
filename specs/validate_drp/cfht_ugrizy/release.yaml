@@ -1,4 +1,22 @@
 ---
+name: 'cfht_stretch'
+base: 'AM1.stretch'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_design'
+base: 'AM1.design'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_minimum'
+base: 'AM1.FY17'
+metadata_query:
+  instrument: 'CFHT'
+
+---
 name: 'cfht_FY17'
 base: 'AM1.FY17'
 metadata_query:
@@ -25,6 +43,24 @@ metadata_query:
 ---
 name: 'cfht_ORR'
 base: 'AM1.ORR'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_stretch'
+base: 'AM2.stretch'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_design'
+base: 'AM2.design'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_minimum'
+base: 'AM2.FY17'
 metadata_query:
   instrument: 'CFHT'
 
@@ -59,6 +95,24 @@ metadata_query:
   instrument: 'CFHT'
 
 ---
+name: 'cfht_stretch'
+base: 'AM3.stretch'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_design'
+base: 'AM3.design'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_minimum'
+base: 'AM3.FY17'
+metadata_query:
+  instrument: 'CFHT'
+
+---
 name: 'cfht_FY17'
 base: 'AM3.FY17'
 metadata_query:
@@ -85,5 +139,41 @@ metadata_query:
 ---
 name: 'cfht_ORR'
 base: 'AM3.ORR'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_design'
+base: 'TE1.design'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_minimum'
+base: 'TE1.minimum'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_stretch'
+base: 'TE1.stretch'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_design'
+base: 'TE2.design'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_minimum'
+base: 'TE2.minimum'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_stretch'
+base: 'TE2.stretch'
 metadata_query:
   instrument: 'CFHT'

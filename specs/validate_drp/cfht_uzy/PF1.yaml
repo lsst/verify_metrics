@@ -1,37 +1,32 @@
 ---
-# validate_drp.PF1_minimum_uzy.cfht_u
-name: 'cfht_u'
-base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-u']
-
----
-# validate_drp.PF1_minimum_uzy.cfht_z
-name: 'cfht_z'
-base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-z']
-
----
-# validate_drp.PF1_minimum_uzy.cfht_y
-name: 'cfht_y'
-base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-y']
-
----
-# validate_drp.PF1_design_uzy.cfht_u
-name: 'cfht_u'
-base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-u']
-
----
-# validate_drp.PF1_design_uzy.cfht_z
-name: 'cfht_z'
-base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-z']
-
----
-# validate_drp.PF1_design_uzy.cfht_y
-name: 'cfht_y'
-base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-y']
-
----
 # validate_drp.PF1_stretch_uzy.cfht_u
 name: 'cfht_u'
 base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u_FY17
+name: 'cfht_u_FY17'
+base: ['PF1_stretch_uzy.FY17', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u_FY18
+name: 'cfht_u_FY18'
+base: ['PF1_stretch_uzy.FY18', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u_FY19
+name: 'cfht_u_FY19'
+base: ['PF1_stretch_uzy.FY19', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u_FY20
+name: 'cfht_u_FY20'
+base: ['PF1_stretch_uzy.FY20', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_u_ORR
+name: 'cfht_u_ORR'
+base: ['PF1_stretch_uzy.ORR', 'cfht_uzy/base#cfht-u']
 
 ---
 # validate_drp.PF1_stretch_uzy.cfht_z
@@ -39,6 +34,237 @@ name: 'cfht_z'
 base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#cfht-z']
 
 ---
+# validate_drp.PF1_stretch_uzy.cfht_z_FY17
+name: 'cfht_z_FY17'
+base: ['PF1_stretch_uzy.FY17', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_z_FY18
+name: 'cfht_z_FY18'
+base: ['PF1_stretch_uzy.FY18', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_z_FY19
+name: 'cfht_z_FY19'
+base: ['PF1_stretch_uzy.FY19', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_z_FY20
+name: 'cfht_z_FY20'
+base: ['PF1_stretch_uzy.FY20', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_z_ORR
+name: 'cfht_z_ORR'
+base: ['PF1_stretch_uzy.ORR', 'cfht_uzy/base#cfht-z']
+
+---
 # validate_drp.PF1_stretch_uzy.cfht_y
 name: 'cfht_y'
 base: ['PF1_stretch_uzy.srd', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y_FY17
+name: 'cfht_y_FY17'
+base: ['PF1_stretch_uzy.FY17', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y_FY18
+name: 'cfht_y_FY18'
+base: ['PF1_stretch_uzy.FY18', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y_FY19
+name: 'cfht_y_FY19'
+base: ['PF1_stretch_uzy.FY19', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y_FY20
+name: 'cfht_y_FY20'
+base: ['PF1_stretch_uzy.FY20', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_stretch_uzy.cfht_y_ORR
+name: 'cfht_y_ORR'
+base: ['PF1_stretch_uzy.ORR', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u
+name: 'cfht_u'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u_FY17
+name: 'cfht_u_FY17'
+base: ['PF1_minimum_uzy.FY17', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u_FY18
+name: 'cfht_u_FY18'
+base: ['PF1_minimum_uzy.FY18', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u_FY19
+name: 'cfht_u_FY19'
+base: ['PF1_minimum_uzy.FY19', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u_FY20
+name: 'cfht_u_FY20'
+base: ['PF1_minimum_uzy.FY20', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_u_ORR
+name: 'cfht_u_ORR'
+base: ['PF1_minimum_uzy.ORR', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z
+name: 'cfht_z'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z_FY17
+name: 'cfht_z_FY17'
+base: ['PF1_minimum_uzy.FY17', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z_FY18
+name: 'cfht_z_FY18'
+base: ['PF1_minimum_uzy.FY18', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z_FY19
+name: 'cfht_z_FY19'
+base: ['PF1_minimum_uzy.FY19', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z_FY20
+name: 'cfht_z_FY20'
+base: ['PF1_minimum_uzy.FY20', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_z_ORR
+name: 'cfht_z_ORR'
+base: ['PF1_minimum_uzy.ORR', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y
+name: 'cfht_y'
+base: ['PF1_minimum_uzy.srd', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y_FY17
+name: 'cfht_y_FY17'
+base: ['PF1_minimum_uzy.FY17', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y_FY18
+name: 'cfht_y_FY18'
+base: ['PF1_minimum_uzy.FY18', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y_FY19
+name: 'cfht_y_FY19'
+base: ['PF1_minimum_uzy.FY19', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y_FY20
+name: 'cfht_y_FY20'
+base: ['PF1_minimum_uzy.FY20', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_minimum_uzy.cfht_y_ORR
+name: 'cfht_y_ORR'
+base: ['PF1_minimum_uzy.ORR', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u
+name: 'cfht_u'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u_FY17
+name: 'cfht_u_FY17'
+base: ['PF1_design_uzy.FY17', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u_FY18
+name: 'cfht_u_FY18'
+base: ['PF1_design_uzy.FY18', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u_FY19
+name: 'cfht_u_FY19'
+base: ['PF1_design_uzy.FY19', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u_FY20
+name: 'cfht_u_FY20'
+base: ['PF1_design_uzy.FY20', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_u_ORR
+name: 'cfht_u_ORR'
+base: ['PF1_design_uzy.ORR', 'cfht_uzy/base#cfht-u']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z
+name: 'cfht_z'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z_FY17
+name: 'cfht_z_FY17'
+base: ['PF1_design_uzy.FY17', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z_FY18
+name: 'cfht_z_FY18'
+base: ['PF1_design_uzy.FY18', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z_FY19
+name: 'cfht_z_FY19'
+base: ['PF1_design_uzy.FY19', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z_FY20
+name: 'cfht_z_FY20'
+base: ['PF1_design_uzy.FY20', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_z_ORR
+name: 'cfht_z_ORR'
+base: ['PF1_design_uzy.ORR', 'cfht_uzy/base#cfht-z']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y
+name: 'cfht_y'
+base: ['PF1_design_uzy.srd', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y_FY17
+name: 'cfht_y_FY17'
+base: ['PF1_design_uzy.FY17', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y_FY18
+name: 'cfht_y_FY18'
+base: ['PF1_design_uzy.FY18', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y_FY19
+name: 'cfht_y_FY19'
+base: ['PF1_design_uzy.FY19', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y_FY20
+name: 'cfht_y_FY20'
+base: ['PF1_design_uzy.FY20', 'cfht_uzy/base#cfht-y']
+
+---
+# validate_drp.PF1_design_uzy.cfht_y_ORR
+name: 'cfht_y_ORR'
+base: ['PF1_design_uzy.ORR', 'cfht_uzy/base#cfht-y']
+
