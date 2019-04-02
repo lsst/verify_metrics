@@ -1,5 +1,5 @@
 ---
-id: 'PF1-base'
+id: 'PF1-base-gri'
 metric: 'validate_drp.PF1_design_gri'
 tags:
   - 'chromatic'
@@ -9,36 +9,36 @@ threshold:
 
 ---
 name: 'FY17'
-base: '#PF1-base'
+base: '#PF1-base-gri'
 threshold:
   value: 10.0
 
 ---
 name: 'FY18'
-base: '#PF1-base'
+base: '#PF1-base-gri'
 threshold:
   value: 10.0
 
 ---
 name: 'FY19'
-base: '#PF1-base'
+base: '#PF1-base-gri'
 threshold:
   value: 10.0
 
 ---
 name: 'FY20'
-base: '#PF1-base'
+base: '#PF1-base-gri'
 threshold:
   value: 10.0
 
 ---
 name: 'ORR'
-base: '#PF1-base'
+base: '#PF1-base-gri'
 threshold:
   value: 10.0
 
 ---
-id: 'PA2-base'
+id: 'PA2-base-gri'
 metric: 'validate_drp.PA2_design_gri'
 tags:
   - 'chromatic'
@@ -48,31 +48,31 @@ threshold:
 
 ---
 name: 'FY17'
-base: '#PA2-base'
+base: '#PA2-base-gri'
 threshold:
   value: 22.5
 
 ---
 name: 'FY18'
-base: '#PA2-base'
+base: '#PA2-base-gri'
 threshold:
   value: 20.0
 
 ---
 name: 'FY19'
-base: '#PA2-base'
+base: '#PA2-base-gri'
 threshold:
   value: 17.5
 
 ---
 name: 'FY20'
-base: '#PA2-base'
+base: '#PA2-base-gri'
 threshold:
   value: 15.0
 
 ---
 name: 'ORR'
-base: '#PA2-base'
+base: '#PA2-base-gri'
 threshold:
   value: 15.0
 
@@ -311,7 +311,7 @@ threshold:
   value: 30.0
 
 ---
-id: 'PF1-base'
+id: 'PF1-base-uzy'
 metric: 'validate_drp.PF1_design_uzy'
 tags:
   - 'achromatic'
@@ -321,36 +321,36 @@ threshold:
 
 ---
 name: 'FY17'
-base: '#PF1-base'
+base: '#PF1-base-uzy'
 threshold:
   value: 10.0
 
 ---
 name: 'FY18'
-base: '#PF1-base'
+base: '#PF1-base-uzy'
 threshold:
   value: 10.0
 
 ---
 name: 'FY19'
-base: '#PF1-base'
+base: '#PF1-base-uzy'
 threshold:
   value: 10.0
 
 ---
 name: 'FY20'
-base: '#PF1-base'
+base: '#PF1-base-uzy'
 threshold:
   value: 10.0
 
 ---
 name: 'ORR'
-base: '#PF1-base'
+base: '#PF1-base-uzy'
 threshold:
   value: 10.0
 
 ---
-id: 'PA2-base'
+id: 'PA2-base-uzy'
 metric: 'validate_drp.PA2_design_uzy'
 tags:
   - 'achromatic'
@@ -360,31 +360,31 @@ threshold:
 
 ---
 name: 'FY17'
-base: '#PA2-base'
+base: '#PA2-base-uzy'
 threshold:
   value: 22.5
 
 ---
 name: 'FY18'
-base: '#PA2-base'
+base: '#PA2-base-uzy'
 threshold:
   value: 20.0
 
 ---
 name: 'FY19'
-base: '#PA2-base'
+base: '#PA2-base-uzy'
 threshold:
   value: 17.5
 
 ---
 name: 'FY20'
-base: '#PA2-base'
+base: '#PA2-base-uzy'
 threshold:
   value: 15.0
 
 ---
 name: 'ORR'
-base: '#PA2-base'
+base: '#PA2-base-uzy'
 threshold:
   value: 15.0
 
