@@ -1,37 +1,32 @@
 ---
-# validate_drp.PA2_minimum_gri.decam_g
-name: 'decam_g'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-g']
-
----
-# validate_drp.PA2_minimum_gri.decam_r
-name: 'decam_r'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-r']
-
----
-# validate_drp.PA2_minimum_gri.decam_i
-name: 'decam_i'
-base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-i']
-
----
-# validate_drp.PA2_design_gri.decam_g
-name: 'decam_g'
-base: ['PA2_design_gri.srd', 'decam_gri/base#decam-g']
-
----
-# validate_drp.PA2_design_gri.decam_r
-name: 'decam_r'
-base: ['PA2_design_gri.srd', 'decam_gri/base#decam-r']
-
----
-# validate_drp.PA2_design_gri.decam_i
-name: 'decam_i'
-base: ['PA2_design_gri.srd', 'decam_gri/base#decam-i']
-
----
 # validate_drp.PA2_stretch_gri.decam_g
 name: 'decam_g'
 base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_stretch_gri.decam_g_FY17
+name: 'decam_g_FY17'
+base: ['PA2_stretch_gri.FY17', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_stretch_gri.decam_g_FY18
+name: 'decam_g_FY18'
+base: ['PA2_stretch_gri.FY18', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_stretch_gri.decam_g_FY19
+name: 'decam_g_FY19'
+base: ['PA2_stretch_gri.FY19', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_stretch_gri.decam_g_FY20
+name: 'decam_g_FY20'
+base: ['PA2_stretch_gri.FY20', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_stretch_gri.decam_g_ORR
+name: 'decam_g_ORR'
+base: ['PA2_stretch_gri.ORR', 'decam_gri/base#decam-g']
 
 ---
 # validate_drp.PA2_stretch_gri.decam_r
@@ -39,6 +34,237 @@ name: 'decam_r'
 base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-r']
 
 ---
+# validate_drp.PA2_stretch_gri.decam_r_FY17
+name: 'decam_r_FY17'
+base: ['PA2_stretch_gri.FY17', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_stretch_gri.decam_r_FY18
+name: 'decam_r_FY18'
+base: ['PA2_stretch_gri.FY18', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_stretch_gri.decam_r_FY19
+name: 'decam_r_FY19'
+base: ['PA2_stretch_gri.FY19', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_stretch_gri.decam_r_FY20
+name: 'decam_r_FY20'
+base: ['PA2_stretch_gri.FY20', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_stretch_gri.decam_r_ORR
+name: 'decam_r_ORR'
+base: ['PA2_stretch_gri.ORR', 'decam_gri/base#decam-r']
+
+---
 # validate_drp.PA2_stretch_gri.decam_i
 name: 'decam_i'
 base: ['PA2_stretch_gri.srd', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_stretch_gri.decam_i_FY17
+name: 'decam_i_FY17'
+base: ['PA2_stretch_gri.FY17', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_stretch_gri.decam_i_FY18
+name: 'decam_i_FY18'
+base: ['PA2_stretch_gri.FY18', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_stretch_gri.decam_i_FY19
+name: 'decam_i_FY19'
+base: ['PA2_stretch_gri.FY19', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_stretch_gri.decam_i_FY20
+name: 'decam_i_FY20'
+base: ['PA2_stretch_gri.FY20', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_stretch_gri.decam_i_ORR
+name: 'decam_i_ORR'
+base: ['PA2_stretch_gri.ORR', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g
+name: 'decam_g'
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g_FY17
+name: 'decam_g_FY17'
+base: ['PA2_minimum_gri.FY17', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g_FY18
+name: 'decam_g_FY18'
+base: ['PA2_minimum_gri.FY18', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g_FY19
+name: 'decam_g_FY19'
+base: ['PA2_minimum_gri.FY19', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g_FY20
+name: 'decam_g_FY20'
+base: ['PA2_minimum_gri.FY20', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_g_ORR
+name: 'decam_g_ORR'
+base: ['PA2_minimum_gri.ORR', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r
+name: 'decam_r'
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r_FY17
+name: 'decam_r_FY17'
+base: ['PA2_minimum_gri.FY17', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r_FY18
+name: 'decam_r_FY18'
+base: ['PA2_minimum_gri.FY18', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r_FY19
+name: 'decam_r_FY19'
+base: ['PA2_minimum_gri.FY19', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r_FY20
+name: 'decam_r_FY20'
+base: ['PA2_minimum_gri.FY20', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_r_ORR
+name: 'decam_r_ORR'
+base: ['PA2_minimum_gri.ORR', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i
+name: 'decam_i'
+base: ['PA2_minimum_gri.srd', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i_FY17
+name: 'decam_i_FY17'
+base: ['PA2_minimum_gri.FY17', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i_FY18
+name: 'decam_i_FY18'
+base: ['PA2_minimum_gri.FY18', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i_FY19
+name: 'decam_i_FY19'
+base: ['PA2_minimum_gri.FY19', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i_FY20
+name: 'decam_i_FY20'
+base: ['PA2_minimum_gri.FY20', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_minimum_gri.decam_i_ORR
+name: 'decam_i_ORR'
+base: ['PA2_minimum_gri.ORR', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_g
+name: 'decam_g'
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_g_FY17
+name: 'decam_g_FY17'
+base: ['PA2_design_gri.FY17', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_g_FY18
+name: 'decam_g_FY18'
+base: ['PA2_design_gri.FY18', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_g_FY19
+name: 'decam_g_FY19'
+base: ['PA2_design_gri.FY19', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_g_FY20
+name: 'decam_g_FY20'
+base: ['PA2_design_gri.FY20', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_g_ORR
+name: 'decam_g_ORR'
+base: ['PA2_design_gri.ORR', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.PA2_design_gri.decam_r
+name: 'decam_r'
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_r_FY17
+name: 'decam_r_FY17'
+base: ['PA2_design_gri.FY17', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_r_FY18
+name: 'decam_r_FY18'
+base: ['PA2_design_gri.FY18', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_r_FY19
+name: 'decam_r_FY19'
+base: ['PA2_design_gri.FY19', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_r_FY20
+name: 'decam_r_FY20'
+base: ['PA2_design_gri.FY20', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_r_ORR
+name: 'decam_r_ORR'
+base: ['PA2_design_gri.ORR', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.PA2_design_gri.decam_i
+name: 'decam_i'
+base: ['PA2_design_gri.srd', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_i_FY17
+name: 'decam_i_FY17'
+base: ['PA2_design_gri.FY17', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_i_FY18
+name: 'decam_i_FY18'
+base: ['PA2_design_gri.FY18', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_i_FY19
+name: 'decam_i_FY19'
+base: ['PA2_design_gri.FY19', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_i_FY20
+name: 'decam_i_FY20'
+base: ['PA2_design_gri.FY20', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.PA2_design_gri.decam_i_ORR
+name: 'decam_i_ORR'
+base: ['PA2_design_gri.ORR', 'decam_gri/base#decam-i']
+
