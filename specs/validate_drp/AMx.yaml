@@ -2,7 +2,7 @@
 
 ---
 # Specification partial
-id: 'AM1-base'
+id: 'AM1-base-srd'
 metric: 'AM1'
 tags:
   - 'AM1'
@@ -33,7 +33,7 @@ threshold:
 
 ---
 name: "design"
-base: "#AM1-base"
+base: "#AM1-base-srd"
 threshold:
   value: 10.0
 tags:
@@ -41,7 +41,7 @@ tags:
 
 ---
 name: "minimum"
-base: "#AM1-base"
+base: "#AM1-base-srd"
 threshold:
   value: 20.0
 tags:
@@ -49,7 +49,7 @@ tags:
 
 ---
 name: "stretch"
-base: "#AM1-base"
+base: "#AM1-base-srd"
 threshold:
   value: 5.0
 tags:
