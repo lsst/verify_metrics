@@ -1,0 +1,399 @@
+---
+id: 'PF1-base-gri'
+metric: 'validate_drp.PF1_stretch_gri'
+tags:
+  - 'chromatic'
+  - 'release'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PF1-base-gri'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#PF1-base-gri'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#PF1-base-gri'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#PF1-base-gri'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#PF1-base-gri'
+threshold:
+  value: 10.0
+
+---
+id: 'PA2-base-gri'
+metric: 'validate_drp.PA2_stretch_gri'
+tags:
+  - 'chromatic'
+  - 'release'
+threshold:
+  unit: 'mmag'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PA2-base-gri'
+threshold:
+  value: 22.5
+
+---
+name: 'FY18'
+base: '#PA2-base-gri'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#PA2-base-gri'
+threshold:
+  value: 17.5
+
+---
+name: 'FY20'
+base: '#PA2-base-gri'
+threshold:
+  value: 15.0
+
+---
+name: 'ORR'
+base: '#PA2-base-gri'
+threshold:
+  value: 15.0
+
+---
+id: 'AF1-base'
+metric: 'validate_drp.AF1_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF1-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AF2-base'
+metric: 'validate_drp.AF2_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF2-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AF3-base'
+metric: 'validate_drp.AF3_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#AF3-base'
+threshold:
+  value: 10.0
+
+---
+id: 'AD1-base'
+metric: 'validate_drp.AD1_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY18'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY20'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AD1-base'
+threshold:
+  value: 20.0
+
+---
+id: 'AD2-base'
+metric: 'validate_drp.AD2_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY18'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'FY20'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+name: 'ORR'
+base: '#AD2-base'
+threshold:
+  value: 20.0
+
+---
+id: 'AD3-base'
+metric: 'validate_drp.AD3_stretch'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'marcsec'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY18'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY19'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'FY20'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+name: 'ORR'
+base: '#AD3-base'
+threshold:
+  value: 30.0
+
+---
+id: 'PF1-base-uzy'
+metric: 'validate_drp.PF1_stretch_uzy'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'percent'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PF1-base-uzy'
+threshold:
+  value: 10.0
+
+---
+name: 'FY18'
+base: '#PF1-base-uzy'
+threshold:
+  value: 10.0
+
+---
+name: 'FY19'
+base: '#PF1-base-uzy'
+threshold:
+  value: 10.0
+
+---
+name: 'FY20'
+base: '#PF1-base-uzy'
+threshold:
+  value: 10.0
+
+---
+name: 'ORR'
+base: '#PF1-base-uzy'
+threshold:
+  value: 10.0
+
+---
+id: 'PA2-base-uzy'
+metric: 'validate_drp.PA2_stretch_uzy'
+tags:
+  - 'achromatic'
+  - 'release'
+threshold:
+  unit: 'mmag'
+  operator: '<='
+
+---
+name: 'FY17'
+base: '#PA2-base-uzy'
+threshold:
+  value: 22.5
+
+---
+name: 'FY18'
+base: '#PA2-base-uzy'
+threshold:
+  value: 20.0
+
+---
+name: 'FY19'
+base: '#PA2-base-uzy'
+threshold:
+  value: 17.5
+
+---
+name: 'FY20'
+base: '#PA2-base-uzy'
+threshold:
+  value: 15.0
+
+---
+name: 'ORR'
+base: '#PA2-base-uzy'
+threshold:
+  value: 15.0

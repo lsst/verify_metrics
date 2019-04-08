@@ -5,8 +5,7 @@ metadata_query:
   instrument: 'CFHT'
   dataset_repo_url: 'https://github.com/lsst/validation_data_cfht.git'
   dataset_name: 'validation_data_cfht'
-  visits: [849375, 850587]
-  ccds: [12, 13, 14, 21, 22, 23]
+  # May need to add specific visits and ccds for the test dataset
 
 ---
 name: 'cfht'
@@ -81,61 +80,61 @@ name: 'cfht'
 base: ['AF3_stretch.srd', '#cfht']
 
 ---
-name: 'CFHT_design'
+name: 'cfht_design'
 base: ['AM1.design', '#cfht']
 
 ---
-name: 'CFHT_minimum'
+name: 'cfht_minimum'
 base: ['AM1.minimum', '#cfht']
 
 ---
-name: 'CFHT_stretch'
+name: 'cfht_stretch'
 base: ['AM1.stretch', '#cfht']
 
 ---
-name: 'CFHT_design'
+name: 'cfht_design'
 base: ['AM2.design', '#cfht']
 
 ---
-name: 'CFHT_minimum'
+name: 'cfht_minimum'
 base: ['AM2.minimum', '#cfht']
 
 ---
-name: 'CFHT_stretch'
+name: 'cfht_stretch'
 base: ['AM2.stretch', '#cfht']
 
 ---
-name: 'CFHT_design'
+name: 'cfht_design'
 base: ['AM3.design', '#cfht']
 
 ---
-name: 'CFHT_minimum'
+name: 'cfht_minimum'
 base: ['AM3.minimum', '#cfht']
 
 ---
-name: 'CFHT_stretch'
+name: 'cfht_stretch'
 base: ['AM3.stretch', '#cfht']
 
 ---
-name: 'CFHT_design'
+name: 'cfht_design'
 base: ['TE1.design', '#cfht']
 
 ---
-name: 'CFHT_minimum'
+name: 'cfht_minimum'
 base: ['TE1.minimum', '#cfht']
 
 ---
-name: 'CFHT_stretch'
+name: 'cfht_stretch'
 base: ['TE1.stretch', '#cfht']
 
 ---
-name: 'CFHT_design'
+name: 'cfht_design'
 base: ['TE2.design', '#cfht']
 
 ---
-name: 'CFHT_minimum'
+name: 'cfht_minimum'
 base: ['TE2.minimum', '#cfht']
 
 ---
-name: 'CFHT_stretch'
+name: 'cfht_stretch'
 base: ['TE2.stretch', '#cfht']

@@ -1,0 +1,90 @@
+---
+name: 'cfht_FY17'
+base: 'AM1.FY17'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY18'
+base: 'AM1.FY18'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY19'
+base: 'AM1.FY19'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY20'
+base: 'AM1.FY20'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_ORR'
+base: 'AM1.ORR'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY17'
+base: 'AM2.FY17'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY18'
+base: 'AM2.FY18'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY19'
+base: 'AM2.FY19'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY20'
+base: 'AM2.FY20'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_ORR'
+base: 'AM2.ORR'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY17'
+base: 'AM3.FY17'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY18'
+base: 'AM3.FY18'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY19'
+base: 'AM3.FY19'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_FY20'
+base: 'AM3.FY20'
+metadata_query:
+  instrument: 'CFHT'
+
+---
+name: 'cfht_ORR'
+base: 'AM3.ORR'
+metadata_query:
+  instrument: 'CFHT'
+

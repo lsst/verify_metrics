@@ -1,0 +1,370 @@
+---
+# Select the CFHT test dataset
+id: 'cfht'
+metadata_query:
+  instrument: 'CFHT'
+  dataset_repo_url: 'https://github.com/lsst/validation_data_cfht.git'
+  dataset_name: 'validation_data_cfht'
+  visits: [849375, 850587]
+  ccds: [12, 13, 14, 21, 22, 23]
+
+---
+name: 'cfht_FY17'
+base: ['AD1_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD1_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD1_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD1_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD1_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD1_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD1_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD1_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD1_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD1_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD1_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD1_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD1_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD1_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD1_design.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD2_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD2_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD2_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD2_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD2_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD2_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD2_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD2_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD2_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD2_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD2_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD2_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD2_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD2_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD2_design.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD3_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD3_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD3_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD3_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD3_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD3_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD3_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD3_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD3_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD3_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AD3_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AD3_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AD3_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AD3_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AD3_design.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF1_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF1_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF1_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF1_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF1_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF1_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF1_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF1_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF1_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF1_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF1_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF1_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF1_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF1_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF1_design.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF2_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF2_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF2_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF2_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF2_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF2_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF2_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF2_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF2_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF2_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF2_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF2_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF2_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF2_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF2_design.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF3_stretch.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF3_stretch.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF3_stretch.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF3_stretch.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF3_stretch.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF3_minimum.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF3_minimum.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF3_minimum.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF3_minimum.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF3_minimum.ORR', '#cfht']
+
+---
+name: 'cfht_FY17'
+base: ['AF3_design.FY17', '#cfht']
+
+---
+name: 'cfht_FY18'
+base: ['AF3_design.FY18', '#cfht']
+
+---
+name: 'cfht_FY19'
+base: ['AF3_design.FY19', '#cfht']
+
+---
+name: 'cfht_FY20'
+base: ['AF3_design.FY20', '#cfht']
+
+---
+name: 'cfht_ORR'
+base: ['AF3_design.ORR', '#cfht']
+
