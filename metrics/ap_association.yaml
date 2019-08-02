@@ -11,6 +11,21 @@ AssociationTime: &RunningTime
         - task
         - monitoring
 
+AssociationMemory: &Memory
+    description: Maximum resident set size in any AssociationTask process.
+    unit: byte
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+
+DiaForcedSourceMemory:
+    <<: *Memory
+    description: Maximum resident set size in any DiaForcedSourceTask process.
+
 numNewDiaObjects: &SourceCount
     description: Number of DIASources that create new DIAObjects in this image.
     unit: ct

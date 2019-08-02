@@ -27,3 +27,18 @@ RegisterImageTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in registerImage.RegisterTask.
 
+ProcessCcdMemory: &Memory
+    description: Maximum resident set size in any ProcessCcdTask process.
+    unit: byte
+    reference:
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+
+ImageDifferenceMemory:
+    <<: *Memory
+    description: Maximum resident set size in any ImageDifferenceTask process.
+
