@@ -8,6 +8,6 @@ ApPipeTime: &RunningTime
     tags:
         - ap_verify
         - workflow
-        - pipeline
+        - task
         - monitoring
 
