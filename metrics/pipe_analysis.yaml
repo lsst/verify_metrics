@@ -31,3 +31,40 @@ stellar_locus_width_xPerp:
       - coadd
       - PSFflux
       - colorAnalysisTask
+
+fake_stars_magDiff_base_Psf_mag:
+  description: >
+    The median difference between the input and extracted magnitudes for stars brighter than a given
+    magnitude limit.
+  unit: mmag
+  tags:
+      - photometry
+      - fakes
+
+fake_stars_magDiffSigMad_base_Psf_mag:
+  description: >
+    The sigma MAD of the  difference between the input and extracted magnitudes for stars brighter than a
+    given magnitude limit.
+  unit: mmag
+  tags:
+      - photometry
+      - fakes
+
+fake_stars_magDiff_base_CircAper_12_0_mag:
+  description: >
+    The median difference between the input and extracted magnitudes for stars brighter than a given
+    magnitude limit.
+  unit: mmag
+  tags:
+      - photometry
+      - fakes
+
+fake_stars_magDiffSigMad_base_CircAper_12_0_mag:
+  description: >
+    The sigma MAD of the  difference between the input and extracted magnitudes for stars brighter than a
+    given magnitude limit.
+  unit: mmag
+  tags:
+      - photometry
+      - fakes
+
