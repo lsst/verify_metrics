@@ -1,0 +1,38 @@
+# Stellar locus specifications for pipe_analysis
+#
+# These specifications don't query against provenance; sub-specifications
+# *can* inherit these, though, to concretely test against a certain dataset.
+
+---
+# Specification partial
+id: "stellar_locus_width-base"
+threshold:
+  operator: "<="
+  unit: "mmag"
+tags:
+  - "stellar_locus_width"
+  - "minimum"
+
+# pipe_analysis.stellar_locas_width_wPerp.griPSF_wFit
+---
+name: "griPSF_wFit"
+base: "#stellar_locus_width-base"
+metric: "stellar_locus_width_wPerp"
+threshold:
+  value: 25.0
+tags:
+  - "gri"
+metadata_query:
+  filter_name: "HSC-G^HSC-R^HSC-I"
+
+# pipe_analysis.stellar_locas_width_xPerp.griPSF_xFit
+---
+name: "griPSF_xFit"
+base: "#stellar_locus_width-base"
+metric: "stellar_locus_width_xPerp"
+threshold:
+  value: 50.0
+tags:
+  - "gri"
+metadata_query:
+  filter_name: "HSC-G^HSC-R^HSC-I"
