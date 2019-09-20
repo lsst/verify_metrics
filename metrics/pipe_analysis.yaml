@@ -1,0 +1,33 @@
+# Metric definitions in pipe_analysis
+
+stellar_locus_width_wPerp:
+  description: >
+    The rms width of the "wPerp" Principal Color stellar locus (a la Ivezic et al. 2004):
+    the blue section on the r-i vs g-r plane using PSF fluxes.
+  unit: mmag
+  reference:
+    doc: Ivezic, Z. et al. 2004, AN 325, SDSS data management and photometric quality assessment
+    url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/asna.200410285
+    page: 586
+  tags:
+      - photometry
+      - stellarLocus
+      - coadd
+      - PSFflux
+      - colorAnalysisTask
+
+stellar_locus_width_xPerp:
+  description: >
+    The rms width of the "xPerp" Principal Color stellar locus (a la Ivezic et al. 2004):
+    the red section on the r-i vs g-r plane using PSF fluxes.
+  unit: mmag
+  reference:
+    doc: Ivezic, Z. et al. 2004, AN 325, SDSS data management and photometric quality assessment
+    url: https://onlinelibrary.wiley.com/doi/pdf/10.1002/asna.200410285
+    page: 586
+  tags:
+      - photometry
+      - stellarLocus
+      - coadd
+      - PSFflux
+      - colorAnalysisTask
