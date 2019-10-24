@@ -1,0 +1,230 @@
+# Galaxy photometric repeatability specifications. Arbitrary for now,
+# as they are not yet defined in any document.
+
+---
+# Specification partial
+id: 'modelPhotRepGal1-base'
+metric: 'modelPhotRepGal1'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepGal1-base"
+threshold:
+  value: 180.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepGal2-base'
+metric: 'modelPhotRepGal2'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepGal2-base"
+threshold:
+  value: 90.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepGal3-base'
+metric: 'modelPhotRepGal3'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepGal3-base"
+threshold:
+  value: 45.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepGal4-base'
+metric: 'modelPhotRepGal4'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepGal4-base"
+threshold:
+  value: 22.5
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepStar1-base'
+metric: 'modelPhotRepStar1'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepStar1-base"
+threshold:
+  value: 120.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepStar2-base'
+metric: 'modelPhotRepStar2'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepStar2-base"
+threshold:
+  value: 60.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepStar3-base'
+metric: 'modelPhotRepStar3'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepStar3-base"
+threshold:
+  value: 30.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'modelPhotRepStar4-base'
+metric: 'modelPhotRepStar4'
+tags:
+  - 'model_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#modelPhotRepStar4-base"
+threshold:
+  value: 15.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'psfPhotRepStar1-base'
+metric: 'psfPhotRepStar1'
+tags:
+  - 'psf_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#psfPhotRepStar1-base"
+threshold:
+  value: 120.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'psfPhotRepStar2-base'
+metric: 'psfPhotRepStar2'
+tags:
+  - 'psf_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#psfPhotRepStar2-base"
+threshold:
+  value: 60.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'psfPhotRepStar3-base'
+metric: 'psfPhotRepStar3'
+tags:
+  - 'psf_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#psfPhotRepStar3-base"
+threshold:
+  value: 30.0
+tags:
+  - minimum
+
+---
+# Specification partial
+id: 'psfPhotRepStar4-base'
+metric: 'psfPhotRepStar4'
+tags:
+  - 'psf_phot_rep'
+  - 'chromatic'
+threshold:
+  unit: 'mmag'
+  operator: "<="
+
+---
+name: "minimum_gri"
+base: "#psfPhotRepStar4-base"
+threshold:
+  value: 15.0
+tags:
+  - minimum
