@@ -1,0 +1,179 @@
+---
+# validate_drp.modelPhotRepGal1.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepGal1.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepGal1.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepGal1.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepGal1.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepGal1.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepGal2.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepGal2.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepGal2.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepGal2.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepGal2.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepGal2.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepGal3.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepGal3.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepGal3.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepGal3.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepGal3.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepGal3.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepGal4.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepGal4.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepGal4.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepGal4.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepGal4.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepGal4.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepStar1.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepStar1.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepStar1.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepStar1.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepStar1.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepStar1.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepStar2.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepStar2.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepStar2.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepStar2.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepStar2.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepStar2.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepStar3.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepStar3.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepStar3.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepStar3.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepStar3.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepStar3.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.modelPhotRepStar4.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['modelPhotRepStar4.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.modelPhotRepStar4.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['modelPhotRepStar4.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.modelPhotRepStar4.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['modelPhotRepStar4.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.psfPhotRepStar1.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['psfPhotRepStar1.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.psfPhotRepStar1.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['psfPhotRepStar1.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.psfPhotRepStar1.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['psfPhotRepStar1.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.psfPhotRepStar2.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['psfPhotRepStar2.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.psfPhotRepStar2.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['psfPhotRepStar2.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.psfPhotRepStar2.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['psfPhotRepStar2.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.psfPhotRepStar3.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['psfPhotRepStar3.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.psfPhotRepStar3.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['psfPhotRepStar3.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.psfPhotRepStar3.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['psfPhotRepStar3.minimum_gri', 'decam_gri/base#decam-i']
+
+---
+# validate_drp.psfPhotRepStar4.decam_minimum_g
+name: 'decam_minimum_g'
+base: ['psfPhotRepStar4.minimum_gri', 'decam_gri/base#decam-g']
+
+---
+# validate_drp.psfPhotRepStar4.decam_minimum_r
+name: 'decam_minimum_r'
+base: ['psfPhotRepStar4.minimum_gri', 'decam_gri/base#decam-r']
+
+---
+# validate_drp.psfPhotRepStar4.decam_minimum_i
+name: 'decam_minimum_i'
+base: ['psfPhotRepStar4.minimum_gri', 'decam_gri/base#decam-i']

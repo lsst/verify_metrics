@@ -228,3 +228,99 @@ threshold:
   value: 15.0
 tags:
   - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepGal1-base"
+threshold:
+  value: 180.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepGal2-base"
+threshold:
+  value: 90.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepGal3-base"
+threshold:
+  value: 45.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepGal4-base"
+threshold:
+  value: 22.5
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepStar1-base"
+threshold:
+  value: 120.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepStar2-base"
+threshold:
+  value: 60.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepStar3-base"
+threshold:
+  value: 30.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#modelPhotRepStar4-base"
+threshold:
+  value: 15.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#psfPhotRepStar1-base"
+threshold:
+  value: 120.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#psfPhotRepStar2-base"
+threshold:
+  value: 60.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#psfPhotRepStar3-base"
+threshold:
+  value: 30.0
+tags:
+  - minimum
+
+---
+name: "minimum_uzy"
+base: "#psfPhotRepStar4-base"
+threshold:
+  value: 15.0
+tags:
+  - minimum
