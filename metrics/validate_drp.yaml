@@ -363,3 +363,111 @@ TE2:
     The averaged E1, E2, and Ex residual PSF ellipticity correlations
     must have median absolute value less than this for separations > 5 arcmin.
   tags: image_quality
+
+modelPhotRepGal1:
+  description: >
+    The maximum rms of the resolved source model magnitude distribution around the mean value in the 1st faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepGal2:
+  description: >
+    The maximum rms of the resolved source model magnitude distribution around the mean value in the 2nd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepGal3:
+  description: >
+    The maximum rms of the resolved source model magnitude distribution around the mean value in the 3rd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepGal4:
+  description: >
+    The maximum rms of the resolved source model magnitude distribution around the mean value in the 4th faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepStar1:
+  description: >
+    The maximum rms of the unresolved source model magnitude distribution around the mean value in the 1st faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepStar2:
+  description: >
+    The maximum rms of the unresolved source model magnitude distribution around the mean value in the 2nd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepStar3:
+  description: >
+    The maximum rms of the unresolved source model magnitude distribution around the mean value in the 3rd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+modelPhotRepStar4:
+  description: >
+    The maximum rms of the unresolved source model magnitude distribution around the mean value in the 4th faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+psfPhotRepStar1:
+  description: >
+    The maximum rms of the unresolved source psf magnitude distribution around the mean value in the 1st faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+psfPhotRepStar2:
+  description: >
+    The maximum rms of the unresolved source psf magnitude distribution around the mean value in the 2nd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+psfPhotRepStar3:
+  description: >
+    The maximum rms of the unresolved source psf magnitude distribution around the mean value in the 3rd faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry
+
+psfPhotRepStar4:
+  description: >
+    The maximum rms of the unresolved source psf magnitude distribution around the mean value in the 4th faintest bin.
+  unit: mmag
+  reference:
+    doc: DM-21380
+    url: https://jira.lsstcorp.org/browse/DM-21380
+  tags: photometry

@@ -1,0 +1,179 @@
+---
+# validate_drp.modelPhotRepGal1.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepGal1.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepGal1.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepGal1.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepGal1.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepGal1.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepGal2.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepGal2.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepGal2.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepGal2.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepGal2.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepGal2.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepGal3.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepGal3.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepGal3.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepGal3.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepGal3.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepGal3.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepGal4.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepGal4.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepGal4.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepGal4.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepGal4.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepGal4.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepStar1.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepStar1.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepStar1.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepStar2.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepStar2.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepStar2.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepStar3.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepStar3.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepStar3.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.modelPhotRepStar4.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['modelPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.modelPhotRepStar4.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['modelPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.modelPhotRepStar4.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['modelPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.psfPhotRepStar1.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['psfPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.psfPhotRepStar1.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['psfPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.psfPhotRepStar1.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['psfPhotRepStar1.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.psfPhotRepStar2.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['psfPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.psfPhotRepStar2.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['psfPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.psfPhotRepStar2.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['psfPhotRepStar2.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.psfPhotRepStar3.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['psfPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.psfPhotRepStar3.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['psfPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.psfPhotRepStar3.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['psfPhotRepStar3.minimum_uzy', 'hsc_uzy/base#hsc-y']
+
+---
+# validate_drp.psfPhotRepStar4.hsc_minimum_u
+name: 'hsc_minimum_u'
+base: ['psfPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-u']
+
+---
+# validate_drp.psfPhotRepStar4.hsc_minimum_z
+name: 'hsc_minimum_z'
+base: ['psfPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-z']
+
+---
+# validate_drp.psfPhotRepStar4.hsc_minimum_y
+name: 'hsc_minimum_y'
+base: ['psfPhotRepStar4.minimum_uzy', 'hsc_uzy/base#hsc-y']
