@@ -1,0 +1,36 @@
+# AB2 definition as in LPM-17
+
+---
+# Specification partial
+id: 'AB2-base'
+metric: 'AB2'
+tags:
+  - 'AB2'
+  - 'achromatic'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+name: "design"
+base: "#AB2-base"
+threshold:
+  value: 20.0
+tags:
+  - design
+
+---
+name: "minimum"
+base: "#AB2-base"
+threshold:
+  value: 40.0
+tags:
+  - minimum
+
+---
+name: "stretch"
+base: "#AB2-base"
+threshold:
+  value: 10.0
+tags:
+  - stretch

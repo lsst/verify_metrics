@@ -1,0 +1,36 @@
+# ABF1 definition as in LPM-17
+
+---
+# Specification partial
+id: 'ABF1-base'
+metric: 'ABF1'
+tags:
+  - 'ABF1'
+  - 'achromatic'
+threshold:
+  unit: '%'
+  operator: "<="
+
+---
+name: "design"
+base: "#ABF1-base"
+threshold:
+  value: 10.0
+tags:
+  - design
+
+---
+name: "minimum"
+base: "#ABF1-base"
+threshold:
+  value: 20.0
+tags:
+  - minimum
+
+---
+name: "stretch"
+base: "#ABF1-base"
+threshold:
+  value: 5.0
+tags:
+  - stretch

@@ -1,0 +1,36 @@
+# AB1 definition as in LPM-17
+
+---
+# Specification partial
+id: 'AB1-base'
+metric: 'AB1'
+tags:
+  - 'AB1'
+  - 'achromatic'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+name: "design"
+base: "#AB1-base"
+threshold:
+  value: 10.0
+tags:
+  - design
+
+---
+name: "minimum"
+base: "#AB1-base"
+threshold:
+  value: 20.0
+tags:
+  - minimum
+
+---
+name: "stretch"
+base: "#AB1-base"
+threshold:
+  value: 5.0
+tags:
+  - stretch

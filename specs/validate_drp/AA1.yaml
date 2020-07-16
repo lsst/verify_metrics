@@ -1,0 +1,36 @@
+# AA1 definition as in LPM-17
+
+---
+# Specification partial
+id: 'AA1-base'
+metric: 'AA1'
+tags:
+  - 'AA1'
+  - 'achromatic'
+threshold:
+  unit: 'milliarcsecond'
+  operator: "<="
+
+---
+name: "design"
+base: "#AA1-base"
+threshold:
+  value: 50.0
+tags:
+  - design
+
+---
+name: "minimum"
+base: "#AA1-base"
+threshold:
+  value: 100.0
+tags:
+  - minimum
+
+---
+name: "stretch"
+base: "#AA1-base"
+threshold:
+  value: 20.0
+tags:
+  - stretch

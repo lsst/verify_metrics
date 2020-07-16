@@ -342,6 +342,178 @@ AD3_stretch:
     No more than AF3 of the astrometric distances will deviate by more than this from the median (see AM3, AF3).
   tags: astrometry
 
+AB1:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The rms difference of separations measured between the r-band and any other filter will be no 
+    larger than this.
+  tags: astrometry
+
+AB1_minimum:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The rms difference of separations measured between the r-band and any other filter will be no 
+    larger than this.
+  tags: astrometry
+
+AB1_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The rms difference of separations measured between the r-band and any other filter will be no 
+    larger than this.
+  tags: astrometry
+
+AB1_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The rms difference of separations measured between the r-band and any other filter will be no 
+    larger than this.
+  tags: astrometry
+
+AB2:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    No more than ABF1% of the separation measurements between the r-band and any other filter
+    will deviate by more than this amount from the mean.
+  tags: astrometry
+
+AB2_minimum:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    No more than ABF1% of the separation measurements between the r-band and any other filter
+    will deviate by more than this amount from the mean.
+  tags: astrometry
+
+AB2_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    No more than ABF1% of the separation measurements between the r-band and any other filter
+    will deviate by more than this amount from the mean.
+  tags: astrometry
+
+AB2_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    No more than ABF1% of the separation measurements between the r-band and any other filter
+    will deviate by more than this amount from the mean.
+  tags: astrometry
+
+ABF1:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: '%'
+  description: >
+    No more than this percentage of separations between r-band and any other filter will deviate
+    by more than AB2 from the mean.
+  tags: astrometry
+
+ABF1_minimum:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: '%'
+  description: >
+    No more than this percentage of separations between r-band and any other filter will deviate
+    by more than AB2 from the mean.
+  tags: astrometry
+
+ABF1_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: '%'
+  description: >
+    No more than this percentage of separations between r-band and any other filter will deviate
+    by more than AB2 from the mean.
+  tags: astrometry
+
+ABF1_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: '%'
+  description: >
+    No more than this percentage of separations between r-band and any other filter will deviate
+    by more than AB2 from the mean.
+  tags: astrometry
+
+AA1:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The median error in absolute astrometric positions in each coordinate will be no larger than this.
+  tags: astrometry
+
+AA1_minimum:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The median error in absolute astrometric positions in each coordinate will be no larger than this.
+  tags: astrometry
+
+AA1_design:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The median error in absolute astrometric positions in each coordinate will be no larger than this.
+  tags: astrometry
+
+AA1_stretch:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 30
+  unit: milliarcsecond
+  description: >
+    The median error in absolute astrometric positions in each coordinate will be no larger than this.
+  tags: astrometry
+
 TE1:
   reference:
     doc: LPM-17
