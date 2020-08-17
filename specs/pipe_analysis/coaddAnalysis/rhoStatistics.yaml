@@ -1,0 +1,116 @@
+# Rho statistics from pipe_analysis
+#
+# Note that the PSF ellipticity residuals represented by the Rho 1 statistic
+# are not included here, but they are captured by the TE1 and TE2 metrics
+# (located in `verify_metrics/specs/validate_drp\TEx.yaml`).
+
+---
+# Specification partial
+id: "rhoStatistics_smallScale-base"
+threshold:
+  operator: "<="
+  unit: ""
+  reference:
+    doc: Jarvis, M. et al. 2016, MNRAS, Vol. 460, Issue 2,
+         "The DES Science Verification weak lensing shear catalogues"
+    url: https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.2245J/abstract
+    page: 2245
+tags:
+  - "rhoStatistics_smallScale"
+  - "rhoStatistics"
+
+---
+id: "rhoStatistics_HSM"
+metadata_query:
+  shapeAlgorithm: "HSM"
+tags:
+  - "HSM"
+
+---
+id: "calibPsfUsed"
+metadata_query:
+  catalog: "calibPsfUsed"
+tags:
+  - "calibPsfUsed"
+
+---
+id: "allStars"
+metadata_query:
+  catalog: "allStars"
+tags:
+  "allStars"
+
+# pipe_analysis.rhoStatistics0
+---
+name: "HSM_smallScale_calibPsfUsed"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#calibPsfUsed"]
+metric: rhoStatistics0_HSM_smallScale_calibPsfUsed
+threshold:
+  value: 1e-6
+
+---
+name: "HSM_smallScale_allStars"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#allStars"]
+metric: rhoStatistics0_HSM_smallScale_allStars
+threshold:
+  value: 1e-5
+
+# pipe_analysis.rhoStatistics2
+---
+name: "HSM_smallScale_calibPsfUsed"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#calibPsfUsed"]
+metric: rhoStatistics2_HSM_smallScale_calibPsfUsed
+threshold:
+  value: 1e-6
+
+---
+name: "HSM_smallScale_allStars"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#allStars"]
+metric: rhoStatistics2_HSM_smallScale_allStars
+threshold:
+  value: 1e-5
+
+# pipe_analysis.rhoStatistics3
+---
+name: "HSM_smallScale_calibPsfUsed"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#calibPsfUsed"]
+metric: rhoStatistics3_HSM_smallScale_calibPsfUsed
+threshold:
+  value: 1e-6
+
+---
+name: "HSM_smallScale_allStars"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#allStars"]
+metric: rhoStatistics3_HSM_smallScale_allStars
+threshold:
+  value: 1e-5
+
+# pipe_analysis.rhoStatistics4
+---
+name: "HSM_smallScale_calibPsfUsed"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#calibPsfUsed"]
+metric: rhoStatistics4_HSM_smallScale_calibPsfUsed
+threshold:
+  value: 1e-6
+
+---
+name: "HSM_smallScale_allStars"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#allStars"]
+metric: rhoStatistics4_HSM_smallScale_allStars
+threshold:
+  value: 1e-5
+
+# pipe_analysis.rhoStatistics5
+---
+name: "HSM_smallScale_calibPsfUsed"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#calibPsfUsed"]
+metric: rhoStatistics5_HSM_smallScale_calibPsfUsed
+threshold:
+  value: 1e-6
+
+---
+name: "HSM_smallScale_allStars"
+base: ["#rhoStatistics_smallScale-base", "#rhoStatistics_HSM", "#allStars"]
+metric: rhoStatistics5_HSM_smallScale_allStars
+threshold:
+  value: 1e-5
