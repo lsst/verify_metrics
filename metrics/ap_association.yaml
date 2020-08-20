@@ -11,6 +11,26 @@ AssociationTime: &RunningTime
         - task
         - monitoring
 
+DiaPipelineTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in DiaPipelineTask.
+
+MapDiaSourceTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in MapDiaSourceTask.
+
+LoadDiaCatalogsTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in LoadDiaCatalogsTask.
+
+DiaForcedSourceTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in DiaForcedSourceTask.
+
+PackageAlertsTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in PackageAlertsTask.
+
 AssociationMemory: &Memory
     description: Maximum resident set size in or before any AssociationTask process.
     unit: byte
@@ -22,9 +42,17 @@ AssociationMemory: &Memory
         - task
         - monitoring
 
+DiaPipelineMemory:
+    <<: *Memory
+    description: Maximum resident set size in or before any DiaPipelineTask process.
+
 DiaForcedSourceMemory:
     <<: *Memory
     description: Maximum resident set size in or before any DiaForcedSourceTask process.
+
+PackageAlertsMemory:
+    <<: *Memory
+    description: Maximum resident set size in or before any PackageAlertsTask process.
 
 numNewDiaObjects: &SourceCount
     description: Number of DIASources that create new DIAObjects in this image.
