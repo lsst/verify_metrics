@@ -12,7 +12,7 @@ ApPipeTime: &RunningTime
         - monitoring
 
 ApPipeMemory: &Memory
-    description: Maximum resident set size in any ApPipeTask process.
+    description: Maximum resident set size in or before any ApPipeTask process.
     unit: byte
     reference:
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
