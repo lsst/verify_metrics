@@ -210,3 +210,19 @@ rhoStatistics5_HSM_largeScale_calibPsfUsed:
   <<: *rhoStatistics_base
   description: >
     Mean Rho 5 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+skyObjectMean_CircApRad9pix:
+  description: >
+    The mean value of the sigma-clipped sky object base_CircularApertureFlux_9_0_instFlux data.
+  unit: nanojansky
+  tags:
+  - skyObject
+  - skyLevel
+
+skyObjectStd_CircApRad9pix:
+  description: >
+    The standard deviation of the sigma-clipped sky object base_CircularApertureFlux_9_0_instFlux data.
+  unit: nanojansky
+  tags:
+  - skyObject
+  - skyLevel
