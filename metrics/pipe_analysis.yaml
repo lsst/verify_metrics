@@ -68,3 +68,145 @@ fake_stars_magDiffSigMad_base_CircAper_12_0_mag:
       - photometry
       - fakes
 
+# Base metric definition for RhoStatistics
+rhoStatistics_base: &rhoStatistics_base
+  unit: ""
+  reference:
+    doc:
+      - Rowe, B. 2010, MNRAS Volume 404, Issue 1, p. 350-366
+      - Jarvis, M. 2016, MNRAS Volume 460, Issue 2, p. 2245-2281
+    url:
+      - https://ui.adsabs.harvard.edu/abs/2010MNRAS.404..350R/abstract
+      - https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.2245J/abstract
+  tags: &rhoTags
+      - RhoStatistics
+      - VisitAnalysisTask
+      - CoaddAnalysisTask
+  description: >
+      Base class for rhoStatistics
+
+# RhoStatistics 0
+rhoStatistics0_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 0 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics0_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 0 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics0_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 0 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics0_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 0 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+# RhoStatistics 1
+rhoStatistics1_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 1 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics1_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 1 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics1_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 1 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics1_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 1 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+# RhoStatistics 2
+rhoStatistics2_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 2 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics2_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 2 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics2_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 2 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics2_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 2 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+# RhoStatistics 3
+rhoStatistics3_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 3 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics3_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 3 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics3_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 3 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics3_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 3 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+# RhoStatistics 4
+rhoStatistics4_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 4 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics4_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 4 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics4_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 4 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics4_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 4 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
+
+# RhoStatistics 5
+rhoStatistics5_HSM_smallScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 5 statistic measured with HSM shapes for all stars within 1 arcmin.
+
+rhoStatistics5_HSM_smallScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 5 statistic measured with HSM shapes for PSF stars within 1 arcmin.
+
+rhoStatistics5_HSM_largeScale_allStars:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 5 statistic measured with HSM shapes for all stars separated by more than 1 arcmin.
+
+rhoStatistics5_HSM_largeScale_calibPsfUsed:
+  <<: *rhoStatistics_base
+  description: >
+    Mean Rho 5 statistic measured with HSM shapes for PSF stars separated by more 1 arcmin.
