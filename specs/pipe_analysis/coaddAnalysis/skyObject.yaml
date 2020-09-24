@@ -1,0 +1,34 @@
+# Sky object specifications for pipe_analysis
+
+# pipe_analysis.skyObjectMean_CircApRad9pix.lower
+---
+metric: "skyObjectMean_CircApRad9pix"
+name: "lower"
+threshold:
+  operator: ">="
+  value: -25.0
+  unit: "nanojansky"
+tags:
+  - "lower"
+
+# pipe_analysis.skyObjectMean_CircApRad9pix.upper
+---
+metric: "skyObjectMean_CircApRad9pix"
+name: "upper"
+threshold:
+  operator: "<="
+  value: 25.0
+  unit: "nanojansky"
+tags:
+  - "upper"
+
+# pipe_analysis.skyObjectStd_CircApRad9pix.minimum
+---
+metric: "skyObjectStd_CircApRad9pix"
+name: "minimum"
+threshold:
+  operator: "<="
+  value: 100.0
+  unit: "nanojansky"
+tags:
+  - "minimum"
