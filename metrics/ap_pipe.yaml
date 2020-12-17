@@ -22,3 +22,26 @@ ApPipeMemory: &Memory
         - task
         - monitoring
 
+ApFakesCompletenessMag20t22:
+    description: Completeness of recovered fakes in the magnitudes range 20-22.
+    unit: '%'
+    tags:
+        - ap_verify
+        - task
+        - monitoring
+
+ApFakesCompletenessMag22t24:
+    description: Completeness of recovered fakes in the magnitudes range 22-24.
+    unit: '%'
+    tags:
+        - ap_verify         
+        - task
+        - monitoring
+
+ApFakesCompletenessMag24t26:
+    description: Completeness of recovered fakes in the magnitudes range 24-26.
+    unit: '%'
+    tags:
+        - ap_verify         
+        - task
+        - monitoring
