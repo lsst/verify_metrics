@@ -22,3 +22,18 @@ ApPipeMemory: &Memory
         - task
         - monitoring
 
+ApFakesCompletenessMag20t22: &Completeness
+    description: Completeness of recovered fakes in the magnitudes range 20-22. This is related to transCompletenessMin, OSS-REQ-0353.
+    unit: '%'
+    tags:
+        - ap_verify
+        - task
+        - monitoring
+
+ApFakesCompletenessMag22t24:
+    <<: *Completeness
+    description: Completeness of recovered fakes in the magnitudes range 22-24. This is related to transCompletenessMin, OSS-REQ-0353.
+
+ApFakesCompletenessMag24t26:
+    <<: *Completeness
+    description: Completeness of recovered fakes in the magnitudes range 24-26. This is related to transCompletenessMin, OSS-REQ-0353.
