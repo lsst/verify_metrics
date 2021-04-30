@@ -42,3 +42,22 @@ ImageDifferenceMemory:
     <<: *Memory
     description: Maximum resident set size in or before any ImageDifferenceTask process.
 
+numDeblendedSciSources:
+    description: Number of direct imaging sources that have been deblended.
+    unit: ''
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - CCD
+        - monitoring
+
+numDeblendChildSciSources:
+    description: Number of sources created by deblending.
+    unit: ''
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - CCD
+        - monitoring
