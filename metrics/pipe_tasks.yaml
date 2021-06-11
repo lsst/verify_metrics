@@ -3,7 +3,7 @@
 ProcessCcdTime: &RunningTime
     description: Wall-clock time elapsed in ProcessCcdTask.
     unit: s
-    reference:
+    reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
     tags:
         - ap_verify
@@ -31,7 +31,7 @@ ProcessCcdMemory: &Memory
     description: Maximum resident set size in or before any ProcessCcdTask process.
     unit: byte
     reference:
-        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+        <<: *ApMetrics
     tags:
         - ap_verify
         - workflow
@@ -42,3 +42,22 @@ ImageDifferenceMemory:
     <<: *Memory
     description: Maximum resident set size in or before any ImageDifferenceTask process.
 
+numDeblendedSciSources:
+    description: Number of direct imaging sources that have been deblended.
+    unit: ''
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - CCD
+        - monitoring
+
+numDeblendChildSciSources:
+    description: Number of sources created by deblending.
+    unit: ''
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - CCD
+        - monitoring
