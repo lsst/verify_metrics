@@ -37,3 +37,23 @@ ApFakesCompletenessMag22t24:
 ApFakesCompletenessMag24t26:
     <<: *Completeness
     description: Completeness of recovered fakes in the magnitudes range 24-26. This is related to transCompletenessMin, OSS-REQ-0353.
+
+ApFakesCount: &FakeCount
+    description: Total number of fakes inserted into a given ccdVisit.
+    unit: ct
+    tags:
+        - ap_verify
+        - task
+        - monitoring
+
+ApFakesCount20t22:
+    <<: *FakeCount
+    description: Number of fakes inserted in the magnitude range 20-22. Denominator in ApFakesCompletenessMag20t22.
+
+ApFakesCountMag22t24:
+    <<: *FakeCount
+    description: Number of fakes inserted in the magnitude range 22-24. Denominator in ApFakesCompletenessMag22t24.
+
+ApFakesCountMag24t26:
+    <<: *FakeCount
+    description: Number of fakes inserted in the magnitude range 24-26. Denominator in ApFakesCompletenessMag24t26.
