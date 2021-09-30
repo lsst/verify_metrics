@@ -1,30 +1,30 @@
 # jointcal metric definitions
 
-associated_astrometry_fittedStars:
+astrometry_matched_fittedStars:
   description: >
     The number of cross-matched fittedStars for astrometry.
   unit: ''
   tags: astrometry
 
-collected_astrometry_refStars:
-  description: >
-    The number of astrometry reference stars drawn from the reference catalog, before matching.
-  unit: ''
-  tags: astrometry
-
-selected_astrometry_refStars:
-  description: >
-    The number of astrometry reference stars matched to fittedStars.
-  unit: ''
-  tags: astrometry
-
-selected_astrometry_fittedStars:
+astrometry_prepared_fittedStars:
   description: >
     The number of cross-matched fittedStars after cleanup, for astrometry.
   unit: ''
   tags: astrometry
 
-selected_astrometry_ccdImages:
+astrometry_collected_refStars:
+  description: >
+    The number of astrometry reference stars drawn from the reference catalog, before matching.
+  unit: ''
+  tags: astrometry
+
+astrometry_prepared_refStars:
+  description: >
+    The number of astrometry reference stars matched to fittedStars.
+  unit: ''
+  tags: astrometry
+
+astrometry_prepared_ccdImages:
   description: >
     The number of ccdImages that will be fit for astrometry, after cleanup.
   unit: >
@@ -43,31 +43,31 @@ astrometry_final_ndof:
   tags: astrometry
 
 
-associated_photometry_fittedStars:
+photometry_matched_fittedStars:
   description: >
     The number of cross-matched fittedStars for photometry.
   unit: ''
   tags: photometry
 
-collected_photometry_refStars:
-  description: >
-    The number of photometry reference stars drawn from the reference catalog, before matching.
-  unit: ''
-  tags: photometry
-
-selected_photometry_refStars:
-  description: >
-    The number of photometry reference stars matched to fittedStars.
-  unit: ''
-  tags: photometry
-
-selected_photometry_fittedStars:
+photometry_prepared_fittedStars:
   description: >
     The number of cross-matched fittedStars after cleanup, for photometry.
   unit: ''
   tags: photometry
 
-selected_photometry_ccdImages:
+photometry_collected_refStars:
+  description: >
+    The number of photometry reference stars drawn from the reference catalog, before matching.
+  unit: ''
+  tags: photometry
+
+photometry_prepared_refStars:
+  description: >
+    The number of photometry reference stars matched to fittedStars.
+  unit: ''
+  tags: photometry
+
+photometry_prepared_ccdImages:
   description: >
     The number of ccdImages that will be fit for photometry, after cleanup.
   unit: >
