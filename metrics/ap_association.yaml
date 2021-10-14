@@ -81,3 +81,11 @@ fracUpdatedDiaObjects: &SourceFraction
     unit: '%'
     reference: *ApMetrics
     tags: *DiffimCcdMetric
+
+numTotalSolarSystemObjects:
+    <<: *SourceCount
+    description: Number of SolarSystemObjects within the detectorVisit.
+
+numAssociatedSsObjects:
+    <<: *SourceCount
+    description: Number of successfully associated SolarSystemObjects.
