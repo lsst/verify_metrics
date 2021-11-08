@@ -536,6 +536,28 @@ TE2:
     must have median absolute value less than this for separations > 5 arcmin.
   tags: image_quality
 
+TE3:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 38
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations from visits
+    must have median absolute value less than this for separations < 5 arcmin.
+  tags: image_quality
+
+TE4:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 31
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations from visits
+    must have median absolute value less than this for separations > 5 arcmin.
+  tags: image_quality
+
 modelPhotRepGal1:
   description: >
     The maximum rms of the resolved source model magnitude distribution around the mean value in the 1st faintest bin.
