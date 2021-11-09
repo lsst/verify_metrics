@@ -518,7 +518,7 @@ TE1:
   reference:
     doc: LPM-17
     url: http://ls.st/lpm-17
-    page: 31
+    page: 38
   unit: ''
   description: >
     The averaged E1, E2, and Ex residual PSF ellipticity correlations
@@ -529,10 +529,32 @@ TE2:
   reference:
     doc: LPM-17
     url: http://ls.st/lpm-17
-    page: 31
+    page: 38
   unit: ''
   description: >
     The averaged E1, E2, and Ex residual PSF ellipticity correlations
+    must have median absolute value less than this for separations > 5 arcmin.
+  tags: image_quality
+
+TE3:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 38
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations from visits
+    must have median absolute value less than this for separations < 5 arcmin.
+  tags: image_quality
+
+TE4:
+  reference:
+    doc: LPM-17
+    url: http://ls.st/lpm-17
+    page: 38
+  unit: ''
+  description: >
+    The averaged E1, E2, and Ex residual PSF ellipticity correlations from visits
     must have median absolute value less than this for separations > 5 arcmin.
   tags: image_quality
 
