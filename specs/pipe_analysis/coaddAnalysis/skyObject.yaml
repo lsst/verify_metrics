@@ -1,8 +1,8 @@
 # Sky object specifications for pipe_analysis
 
-# pipe_analysis.skyObjectMean_CircApRad9pix.lower
+# pipe_analysis.skyObjectMean_ap09Flux.lower
 ---
-metric: "skyObjectMean_CircApRad9pix"
+metric: "skyObjectMean_ap09Flux"
 name: "lower"
 threshold:
   operator: ">="
@@ -11,9 +11,9 @@ threshold:
 tags:
   - "lower"
 
-# pipe_analysis.skyObjectMean_CircApRad9pix.upper
+# pipe_analysis.skyObjectMean_ap09Flux.upper
 ---
-metric: "skyObjectMean_CircApRad9pix"
+metric: "skyObjectMean_ap09Flux"
 name: "upper"
 threshold:
   operator: "<="
@@ -22,9 +22,9 @@ threshold:
 tags:
   - "upper"
 
-# pipe_analysis.skyObjectStd_CircApRad9pix.minimum
+# pipe_analysis.skyObjectStd_ap09Flux.minimum
 ---
-metric: "skyObjectStd_CircApRad9pix"
+metric: "skyObjectStd_ap09Flux"
 name: "minimum"
 threshold:
   operator: "<="
