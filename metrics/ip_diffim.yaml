@@ -15,6 +15,14 @@ DipoleFitTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in DipoleFitTask.
 
+SubtractImagesALTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in AlardLuptonSubtractTask.
+
+DetectAndMeasureTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in DetectAndMeasureTask.
+
 fracDiaSourcesToSciSources:
     description: fraction of DIASources/science sources
     unit: '%'

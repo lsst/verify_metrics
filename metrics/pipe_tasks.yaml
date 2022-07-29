@@ -19,14 +19,6 @@ CalibrateTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in CalibrateTask.
 
-ImageDifferenceTime:
-    <<: *RunningTime
-    description: Wall-clock time elapsed in ImageDifferenceTask.
-
-RegisterImageTime:
-    <<: *RunningTime
-    description: Wall-clock time elapsed in registerImage.RegisterTask.
-
 ProcessCcdMemory: &Memory
     description: Maximum resident set size in or before any ProcessCcdTask process.
     unit: byte
@@ -37,10 +29,6 @@ ProcessCcdMemory: &Memory
         - workflow
         - task
         - monitoring
-
-ImageDifferenceMemory:
-    <<: *Memory
-    description: Maximum resident set size in or before any ImageDifferenceTask process.
 
 numDeblendedSciSources:
     description: Number of direct imaging sources that have been deblended.
