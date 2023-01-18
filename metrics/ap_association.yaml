@@ -17,7 +17,7 @@ DiaPipelineTime:
 
 MapDiaSourceTime:
     <<: *RunningTime
-    description: Wall-clock time elapsed in MapDiaSourceTask.
+    description: Wall-clock time elapsed in MapDiaSourceTask or TransformDiaSourceCatalogTask.
 
 LoadDiaCatalogsTime:
     <<: *RunningTime

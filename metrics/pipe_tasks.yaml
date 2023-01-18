@@ -1,7 +1,7 @@
 # Metric definitions in pipe_tasks
 
-ProcessCcdTime: &RunningTime
-    description: Wall-clock time elapsed in ProcessCcdTask.
+CharacterizeImageTime: &RunningTime
+    description: Wall-clock time elapsed in CharacterizeImageTask.
     unit: s
     reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
@@ -11,24 +11,9 @@ ProcessCcdTime: &RunningTime
         - task
         - monitoring
 
-CharacterizeImageTime:
-    <<: *RunningTime
-    description: Wall-clock time elapsed in CharacterizeImageTask.
-
 CalibrateTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in CalibrateTask.
-
-ProcessCcdMemory: &Memory
-    description: Maximum resident set size in or before any ProcessCcdTask process.
-    unit: byte
-    reference:
-        <<: *ApMetrics
-    tags:
-        - ap_verify
-        - workflow
-        - task
-        - monitoring
 
 numDeblendedSciSources:
     description: Number of direct imaging sources that have been deblended.
