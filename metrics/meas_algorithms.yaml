@@ -3,11 +3,19 @@
 SourceDetectionTime: &RunningTime
     description: Wall-clock time elapsed in SourceDetectionTask.
     unit: s
-    reference:
+    reference: &ApMetrics
         url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
     tags:
         - ap_verify
         - workflow
         - task
         - monitoring
-
+SourceDetectionCpuTime: &CpuTime
+    description: CPU time elapsed in SourceDetectionTask.
+    unit: s
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - workflow
+        - task

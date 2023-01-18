@@ -10,10 +10,22 @@ CharacterizeImageTime: &RunningTime
         - workflow
         - task
         - monitoring
+CharacterizeImageCpuTime: &CpuTime
+    description: CPU time elapsed in CharacterizeImageTask.
+    unit: s
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
 
 CalibrateTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in CalibrateTask.
+CalibrateCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in CalibrateTask.
 
 numDeblendedSciSources:
     description: Number of direct imaging sources that have been deblended.
