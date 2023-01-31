@@ -10,26 +10,50 @@ AssociationTime: &RunningTime
         - workflow
         - task
         - monitoring
+AssociationCpuTime: &CpuTime
+    description: CPU time elapsed in AssociationTask.
+    unit: s
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
 
 DiaPipelineTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in DiaPipelineTask.
+DiaPipelineCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in DiaPipelineTask.
 
 MapDiaSourceTime:
     <<: *RunningTime
-    description: Wall-clock time elapsed in MapDiaSourceTask.
+    description: Wall-clock time elapsed in MapDiaSourceTask or TransformDiaSourceCatalogTask.
+MapDiaSourceCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in MapDiaSourceTask or TransformDiaSourceCatalogTask.
 
 LoadDiaCatalogsTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in LoadDiaCatalogsTask.
+LoadDiaCatalogsCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in LoadDiaCatalogsTask.
 
 DiaForcedSourceTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in DiaForcedSourceTask.
+DiaForcedSourceCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in DiaForcedSourceTask.
 
 PackageAlertsTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in PackageAlertsTask.
+PackageAlertsCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in PackageAlertsTask.
 
 AssociationMemory: &Memory
     description: Maximum resident set size in or before any AssociationTask process.

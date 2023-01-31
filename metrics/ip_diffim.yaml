@@ -10,18 +10,36 @@ ImagePsfMatchTime: &RunningTime
         - workflow
         - task
         - monitoring
+ImagePsfMatchCpuTime: &CpuTime
+    description: CPU time elapsed in ImagePsfMatchTask.
+    unit: s
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
 
 DipoleFitTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in DipoleFitTask.
+DipoleFitCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in DipoleFitTask.
 
 SubtractImagesALTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in AlardLuptonSubtractTask.
+SubtractImagesALCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in AlardLuptonSubtractTask.
 
 DetectAndMeasureTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in DetectAndMeasureTask.
+DetectAndMeasureCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in DetectAndMeasureTask.
 
 fracDiaSourcesToSciSources:
     description: fraction of DIASources/science sources
