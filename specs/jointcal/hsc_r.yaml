@@ -37,6 +37,6 @@ provenance_query:
   # Prototype for query provenance. This needs to be figured out.
   visits: [903334, 903336]
   config: 'config.astrometryModel="simplePoly"'
-  config: 'config.astrometryRefObjLoader="LoadIndexedReferenceObjectsTask"'
+  config: 'config.astrometryRefObjLoader="LoadReferenceObjectsTask"'
 threshold:
   value: 504
