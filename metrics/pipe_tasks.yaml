@@ -27,6 +27,13 @@ CalibrateCpuTime:
     <<: *CpuTime
     description: CPU time elapsed in CalibrateTask.
 
+CalibrateImageTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in CalibrateImageTask.
+CalibrateImageCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in CalibrateImageTask.
+
 numDeblendedSciSources:
     description: Number of direct imaging sources that have been deblended.
     unit: ''
