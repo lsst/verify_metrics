@@ -1,0 +1,21 @@
+# Metric definitions in meas_transinet
+
+RBTransiNetTime: &RunningTime
+    description: Wall-clock time elapsed in RBTransiNetTask.
+    unit: s
+    reference: &ApMetrics
+        url: https://confluence.lsstcorp.org/pages/viewpage.action?spaceKey=~ebellm&title=Alert+Production+Metrics
+    tags:
+        - ap_verify
+        - workflow
+        - task
+        - monitoring
+RBTransiNetCpuTime: &CpuTime
+    description: CPU time elapsed in RBTransiNetTask.
+    unit: s
+    reference:
+        <<: *ApMetrics
+    tags:
+        - ap_verify
+        - workflow
+        - task

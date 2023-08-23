@@ -27,6 +27,13 @@ DipoleFitCpuTime:
     <<: *CpuTime
     description: CPU time elapsed in DipoleFitTask.
 
+GetTemplateTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in GetTemplateTask.
+GetTemplateCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in GetTemplateTask.
+
 SubtractImagesALTime:
     <<: *RunningTime
     description: Wall-clock time elapsed in AlardLuptonSubtractTask.
