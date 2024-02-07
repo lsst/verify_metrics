@@ -55,6 +55,13 @@ PackageAlertsCpuTime:
     <<: *CpuTime
     description: CPU time elapsed in PackageAlertsTask.
 
+FilterDiaSourceCatalogTime:
+    <<: *RunningTime
+    description: Wall-clock time elapsed in FilterDiaSourceCatalogTask.
+FilterDiaSourceCatalogCpuTime:
+    <<: *CpuTime
+    description: CPU time elapsed in FilterDiaSourceCatalogTask.
+
 AssociationMemory: &Memory
     description: Maximum resident set size in or before any AssociationTask process.
     unit: byte
