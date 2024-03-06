@@ -35,3 +35,12 @@ ApFakesCountMag22t24:
 ApFakesCountMag24t26:
     <<: *FakeCount
     description: Number of fakes inserted in the magnitude range 24-26. Denominator in ApFakesCompletenessMag24t26.
+
+ApPipelineTime:
+    description: Wall-clock time elapsed when running the entire AP pipeline.
+    unit: s
+    tags:
+        - ap_verify
+        - workflow
+        - pipeline
+        - monitoring
