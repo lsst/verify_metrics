@@ -1,3 +1,4 @@
+_build*
 *.log
 *.json
 *.png
@@ -17,3 +18,4 @@ tests/.tests
 version.py
 bin/*.py
 examples/*.list
+python/*.dist-info/
